@@ -14,6 +14,11 @@ body {
   // @media only screen and (max-width: $mobile) {
   //   font-size: 18px;
   // }
+
+  @media only screen and (min-width: $tablet - 1) {
+    font-size: $base-font-size * 1.5;
+  }
+
 }
 
 *::selection {
@@ -236,9 +241,7 @@ table td {
 }
 
 .margin-top {
-  @media only screen and (max-width: $desktop - 1) {
-    padding-top: 64px;
-  }
+  padding-top: 72px;
 }
 
 body {
