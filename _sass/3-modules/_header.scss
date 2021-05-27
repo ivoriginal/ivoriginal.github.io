@@ -58,7 +58,6 @@
     opacity: 0;
     visibility: hidden;
     background-color: var(--background-color);
-    }
 
     &.is-open {
       opacity: 1;
@@ -96,6 +95,7 @@
       }
     }
   }
+}
 
 .main-nav__box {
   display: flex;
