@@ -281,13 +281,13 @@
 }
 
 // mobile nav
-@media only screen and (max-width: $desktop) {
+@media only screen and (max-width: $tablet - 1) {
   .main-nav {
     position: fixed;
     bottom: 24px;
     height: 56px;
     background: var(--light-gray);
-    width: 100%;
+    // width: 100%;
     z-index: 4;
     left: 0;
     border: 1px solid #e0e0e0;
