@@ -3,34 +3,43 @@
   background-color: #fafafa;
   margin-bottom: 40px;
   padding: 72px 0 56px 0;
-  // background: rgb(240,240,240);
-  // background: -moz-linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 50%);
-  // background: -webkit-linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 50%);
-  // background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 50%);
-  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f0f0",endColorstr="#ffffff",GradientType=1); 
+
+  .hero__description a {
+    // border-bottom: 2px solid var(--gray);
+    background: var(--medium-gray);
+    padding: 0px 4px;
+  }
 
   // adjust home button position
   .button {
-    margin-top: -24px;
+    margin-top: 8px;
     text-align: center;
   }
 
   @media only screen and (max-width: $desktop - 1) {
+    
+    // aligns content and text
     margin: 0px 0px 32px 0px;
     padding: 0px 0px 40px 0px;
+    text-align: center;
+    
+    // swaps img and text
     .row {
       flex-direction: column-reverse;
     }
+
+    // fixes space between text and button
     .button {
-      margin-top: 24px;
+      margin-top: 48px;
     }
+
   }
 
-}
+} // /button
 
   // adjusted for subsections
   .hero-2 {
-    background-color: var(--light-gray);
+    // background-color: var(--light-gray);
     margin-bottom: 40px;
     padding: 112px 0 32px 0;
 
@@ -80,5 +89,12 @@
     @media only screen and (max-width: $desktop) {
       font-size: inherit;
     }
+  }
+}
+
+.avatar {
+  @media only screen and (max-width: $desktop) {
+    align-self: center;
+    margin-top: 32px;
   }
 }
