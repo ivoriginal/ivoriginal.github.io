@@ -30,11 +30,14 @@
   }
 }
 
-.post__info,
 .page__info {
-  max-width: 760px;
   text-align: left;
-  margin-top: 32px;
+  padding-top: 72px;
+}
+
+.post__info {
+  text-align: center;
+  padding-top: 72px;
 
   @media only screen and (max-width: $desktop) {
     max-width: 100%;
