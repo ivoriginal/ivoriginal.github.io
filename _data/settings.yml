@@ -14,8 +14,8 @@ menu__settings:
       url: '/'
     - title: 'Now'
       url: '/now/'
-    - title: 'Portfolio'
-      url: '/portfolio/'
+    - title: 'Work'
+      url: '/work/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'About'
@@ -32,20 +32,37 @@ hero:
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: Portfolio
+  portfolio__title: Work
+  portfolio__subtitle: Cool stuff people pay me to do and personal projects
   portfolio__gallery:
-    - image: /images/gallery-01.jpg
+    - image: /images/gallery-02.jpg
+      title: Community Directory
+      description: A digital roster to help people connect
+      client: Google for Startups
+      url: /portfolio/gfs-directory
+
+    - image: /images/no-more-haters.jpg
       title: No More Haters
       description: Games to fight hate speech
       client: maldita.es
-
-    - image: /images/gallery-02.jpg
-      title: Community Tools
-      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
-      client: Google
+      url: no-more-haters
 
     - image: /images/gallery-03.jpg
-      title: 
+      title: POiN Places
+      description: A city guide for families
+      client: Motherfounders
+      url: poin-places
+
+    - image: /images/gallery-03.jpg
+      title: Bench Accounting
+      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+
+    - image: /images/gallery-03.jpg
+      title: Bench Accounting
+      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+
+    - image: /images/gallery-03.jpg
+      title: Bench Accounting
       description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
 
     - image: /images/gallery-03.jpg
@@ -57,32 +74,36 @@ portfolio:
 # Now Settings
 now:
   now__title: Now
+  now__subtitle: It's happening!
   now__content:
     - image: /images/commit-sans.jpg
-      title: Commit Sans
-      description: Software, handmade with love
+      title: Founding a studio called Commit Sans
+      description: where we design and develop software. 0% bullshit 100% product.
       url: commit-sans
 
       # image: /images/gallery-01.jpg
     - image: /images/community-tools.png
-      title: Community Tools
-      description: Tools to help people connect
+      title: Building a set of tools to help people connect
+      description: in communities like Google for Startups Madrid, Tel Aviv and Seoul.
       url: community-tools
 
     - image: /images/gallery-01.jpg
-      title: Fictizia
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+      title: Teaching the Product Design course at Fictizia
+      description: where we learn how to design and develop digital products.
       url: commit-sans
 
-    - body: hola qué cosa
-      image: /images/gallery-01.jpg
-      title: A New Sun
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+    - image: /images/gallery-01.jpg
+      title: Designing an open source design knowledge base
+      description: to help newcomers learn the craft and find trusted sources.
+      url: commit-sans
 
-    - body: hola qué cosa
-      image: /images/gallery-01.jpg
-      title: Trash Slayer
-      description: Brown photo frame beside wall <a href="https://unsplash.com/photos/8Od75hgzb9Y">Unsplash</a>
+    - image: /images/gallery-01.jpg
+      title: Writing and recording a death metal album
+      description: it's not actually death metal, but it really djents.
+
+    - image: /images/gallery-01.jpg
+      title: Developing a game called Trash Slayer
+      description: but learning to use Unity is a real pain in the ass.
 
 
 #-------------------------------
