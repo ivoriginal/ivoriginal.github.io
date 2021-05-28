@@ -1,0 +1,95 @@
+---
+layout: default
+title: Work
+description: 'Cool stuff people pay me to do'
+---
+
+<!-- begin hero -->
+<section class="hero-2">
+  <div class="container">
+    <div class="row">
+      <div class="col col-10 col-d-12">
+        <div class="hero__inner">
+          {% if page.title %}
+            <h1 class="hero__title">{{ page.title }}</h1>
+          {% endif %}
+          {% if page.description %}
+            <p class="hero__description">{{ page.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+      <!-- <div class="col col-2 avatar">
+        <img src="/images/avatar_no-bg.png" />
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+
+    <!-- begin subscribe -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <section class="subscribe">
+            <div class="subscribe__head">
+              <h2 class="subscribe__title">hola</h2>
+            </div>
+            <a href="mailto:ivo@commitsans.com?subject=Qué pasa majo&body=ola qe dise" class="button button--primary subscribe__button" id="membedded-subscribe" name="subscribe">Get in touch</a>
+            <div class="subscribe__bg">
+              <svg width="920" height="119" fill="{% if site.data.settings.mailchimp.mailchimp__bg__color %}{{ site.data.settings.mailchimp.mailchimp__bg__color }}{% else %}none{% endif %}" xmlns="http://www.w3.org/2000/svg"><path d="M429.599 14.348C207.922-27.515 50.834 66.674 0 119h920V0c-11.961 4.782-48.243 19.074-97.681 37.979-61.799 23.631-115.623 28.695-392.72-23.631z"/></svg>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- end subscribe -->
+
+<div class="portfolio__gallery animate">
+  <div class="container">
+    <div class="row">
+      {% for card in site.data.settings.portfolio.portfolio__gallery %}
+        {% include card.html %}
+      {% endfor %}
+    </div>
+    <!-- begin subscribe -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <section class="subscribe">
+            <div class="subscribe__head">
+              <h2 class="subscribe__title">hola</h2>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- end subscribe -->
+  </div>
+</div>
+
+<!-- begin hero -->
+<section class="hero-2">
+  <div class="container">
+    <div class="row">
+      <div class="col col-10 col-d-12">
+        <div class="hero__inner">
+            <h1 class="hero__title">Projects</h1>
+          {% if page.description %}
+            <p class="hero__description">{{ page.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+
+<div class="portfolio__gallery animate">
+  <div class="container">
+    <div class="row">
+      {% for card in site.data.settings.portfolio.portfolio__gallery %}
+        {% include card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
