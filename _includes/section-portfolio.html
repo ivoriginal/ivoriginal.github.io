@@ -7,9 +7,9 @@
         <div class="section__head">
           <span>
             <h2 class="section__title">{{ site.data.settings.portfolio.portfolio__title }}</h2>
-            <p>Its happening! Stuff that Im involved in right now</p>
+            <p>{{ site.data.settings.portfolio.portfolio__subtitle }}</p>
           </span>
-          <a class="section__link" href="{{ '/portfolio' | relative_url }}">View more</a>
+          <a class="section__link" href="{{ '/work' | relative_url }}">View more</a>
           <!-- <div class="portfolio__view">
             <div class="portfolio__toggle">
               <div class="icon">
@@ -27,7 +27,7 @@
   <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
-        {% for card in site.data.settings.portfolio.portfolio__gallery %}
+        {% for card in site.data.settings.portfolio.portfolio__gallery limit:3 %}
           {% include card.html %}
         {% endfor %}
       </div>
