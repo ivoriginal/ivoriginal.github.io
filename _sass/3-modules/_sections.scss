@@ -1,6 +1,6 @@
 /* Sections */
 .section {
-  margin-bottom: 120px;
+  margin-bottom: 56px;
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 80px;
@@ -36,7 +36,7 @@
 .section__title {
   padding-right: 20px;
   margin-bottom: 0;
-  font-size: 32px;
+  font-size: 3rem;
 
   @media only screen and (max-width: $mobile) {
     font-size: 26px;
