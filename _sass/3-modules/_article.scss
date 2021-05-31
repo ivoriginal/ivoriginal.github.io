@@ -12,6 +12,11 @@
       text-decoration-color: var(--link-color-hover);
     }
   }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 16px;
+  }
+
 }
 
 .article__head {
