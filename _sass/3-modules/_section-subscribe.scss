@@ -116,3 +116,45 @@
     height: 100px;
   }
 }
+
+// Banner
+.banner {
+  display: flex;
+  background-color: var(--light-gray);
+  margin-bottom: 32px;
+  border-radius: 8px;
+  padding: 24px;
+
+  @media (max-width: $desktop) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+.banner__head {
+  width: 100%;
+}
+
+.banner__title {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.banner__subtitle {
+  font-size: 1.4rem;
+}
+
+.banner .button {
+  text-align: center;
+  align-self: center;
+
+  @media (min-width: $desktop) {
+    width: 300px;
+  }
+
+  @media (max-width: $desktop) {
+    margin-top: 24px;
+  }
+
+}
