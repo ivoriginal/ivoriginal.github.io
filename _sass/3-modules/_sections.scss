@@ -1,10 +1,25 @@
 /* Sections */
 .section {
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 
-  @media only screen and (max-width: $mobile) {
-    margin-bottom: 80px;
+  // @media only screen and (max-width: $mobile) {
+  //   margin-bottom: 80px;
+  // }
+}
+
+// headline + view more
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  .section__link {
+    align-self: center;
+    border: 1px solid var(--gray);
+    padding: 2px 8px;
+    border-radius: 4px;
   }
+
 }
 
 .section__head {
@@ -14,6 +29,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 24px;
+
+  span {
+    width: 100%;
+  }
 
   // &::after {
   //   content: "";
@@ -39,7 +58,7 @@
   font-size: 3rem;
 
   @media only screen and (max-width: $mobile) {
-    font-size: 26px;
+    font-size: 2rem;
   }
 }
 
@@ -68,4 +87,10 @@
 .section__title,
 .section__link {
   background: var(--background-color);
+}
+
+// adds divider to section heads
+.portfolio .section__head, .blog .section__head {
+  border-top: 1px solid var(--medium-gray);
+  padding-top: 40px;
 }
