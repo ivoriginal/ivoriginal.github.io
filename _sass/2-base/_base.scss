@@ -220,6 +220,14 @@ table td {
       background: var(--button-background-hover);
     }
   }
+
+  &--outline {
+    padding: 8px 12px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+
+
 }
 
 .lazy {
