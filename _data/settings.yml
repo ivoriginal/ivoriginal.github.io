@@ -54,8 +54,10 @@ portfolio:
       url: poin-places
 
     - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+      title: GIV.
+      description: A city guide for families
+      client: Dona
+      url: poin-places
 
     - image: /images/gallery-03.jpg
       title: Bench Accounting
