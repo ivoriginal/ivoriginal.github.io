@@ -8,9 +8,20 @@
           <p class="hero__description">La semana pasada descubrí que nadie ha podido medir la velocidad de la luz, y hoy estoy leyendo sobre calcetines para perros. Soy <a href="https://ivoriginal.github.io/about">Ivo</a> y escribo lo que me da la gana.</p>
         </div>
       </div>
-      <!-- <div class="col col-4 col-t-6 col-m-8 avatar">
+      <div class="col col-4 col-t-6 col-m-8 avatar">
         <img src="/images/blog-art.png" />
-      </div> -->
+      </div>
+      <div>
+        <section class="">
+          <div class="subscribe__inner">
+            <form class="subscribe__form validate" action="{% if site.data.settings.mailchimp.mailchimp__identifier %}//{{site.data.settings.mailchimp.mailchimp__identifier}}{% else %}#{% endif %}" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+              <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+              <input class="subscribe__email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="Email address">
+              <button class="button button--primary subscribe__button" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.mailchimp.mailchimp__button__text }}</button>
+            </form>
+          </div>
+        </section>
+      </div>
     </div>
   </div>
 </section>
