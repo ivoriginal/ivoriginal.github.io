@@ -1,5 +1,5 @@
 /* Header */
-.header {
+.header, .header-blog {
   background-color: #fafafa;
   border-bottom: 1px solid #e0e0e0;
   position: fixed;
@@ -17,8 +17,14 @@
     @media only screen and (max-width: $tablet) {
       // padding: 40px $base-spacing-unit;
       text-align: center;
+      justify-content: space-between;
     }
   }
+}
+
+.header-blog, .hero-blog {
+  border-bottom: 1px solid #afc680;
+  background-color: #c5e38a;
 }
 
 /* Logo */
@@ -83,7 +89,6 @@
 
   @media only screen and (max-width: $desktop) {
     display: block;
-
     align-items: center;
     width: 80%;
     height: 80vh;
@@ -235,9 +240,9 @@
 // mobile nav
 @media only screen and (max-width: $tablet) {
 
-:after {
-  display: none;
-}
+  :after {
+    display: none;
+  }
 
   .main-nav {
     position: fixed;
@@ -284,4 +289,13 @@
     border-radius: 16px;
   }
 
+}
+
+.nav-cta .button {
+  margin-left: 48px;
+
+  @media only screen and (min-width: $tablet) and (max-width: $desktop) {
+    display: none;
+  }
+  
 }
