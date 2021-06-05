@@ -20,6 +20,10 @@
 
         <p class="article__excerpt">{% if card.client %}<strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
+        {% if card.cta %}
+        <a class="button button--outline">hola</a>
+        {% endif %}
+
       </div>
     </div>
   </a>
