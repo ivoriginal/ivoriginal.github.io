@@ -77,6 +77,13 @@ portfolio:
       industry: Fintech
       url: poin-places
 
+    - image: /images/work/trenlab.png
+      title: Trenlab Trivia
+      description: Fun fun fun
+      client: Wayra
+      industry: 
+      url: trenlab-trivia
+
     - image: /images/work/domolock.png
       title: Domolock
       description: White wooden table near brown chair
@@ -111,6 +118,43 @@ portfolio:
       client: RatedPower
       industry: Real State
       url: ringo
+
+#-------------------------------
+# Charlas
+charlas:
+  charlas__list:
+    - image: /images/work/gfs-directory.png
+      title: Product Design Essentials
+      description: A digital roster to help people connect
+      cta: Book now
+      url: /work/gfs-directory
+
+    - image: /images/work/gfs-directory.png
+      title: Prototyping
+      description: A digital roster to help people connect
+      cta: Book now
+      url: /work/gfs-directory
+
+    - image: /images/work/gfs-directory.png
+      title: Intro to Material Design
+      description: A digital roster to help people connect
+      cta: Book now
+      url: /work/gfs-directory
+
+
+#-------------------------------
+# Projects
+projects:
+  project__list:
+    - image: 
+      title: Trash Slayer
+      description: A videogame
+      url: /work/gfs-directory
+
+    - image: 
+      title: Fields of Oniria
+      description: A digital roster to help people connect
+      url: /work/gfs-directory
 
 
 #-------------------------------
