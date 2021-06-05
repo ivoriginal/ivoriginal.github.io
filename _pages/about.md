@@ -1,41 +1,133 @@
 ---
 layout: page
 title: Who the f*ck is Ivo?
-description: Bear with me for a story about oranges, design, corruption, and thunderstorms
+description: A story about oranges, design, corruption, and thunderstorms
 permalink: /about/
 image: '/images/01.jpg'
 ---
 
-### 1994
+#### Let robots do it
 
-Before I was a designer, I was a baby. That baby was born in [a sunny island](https://unsplash.com/photos/BghGseQbAkA) in north-western Africa, in Spanish territory, but my mom soon moved to the mainland and raised me in the most beautiful waterless region of southern Europe, Murcia.
-
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+I was born in [an island](https://unsplash.com/photos/BghGseQbAkA) 652 km away from Morocco to Elisabetta and David, two spaniards with really mediocre cooking skills and a questionable taste in names (Ivo? Really? How do you even pronounce that?)
 
 <br>
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+It was a matter of time that they decided to send me with my grandparents, Susana and Giorgio,  with unbeatable cooking skills and much better taste in names, to be raised in [a godforsaken region](https://es.wikipedia.org/wiki/Murcia) of southeastern Spain.
 
 <br>
 
-![Workflow]({{site.baseurl}}/images/03.jpg)
-*Photo by [Hugo Sousa](https://unsplash.com/photos/BghGseQbAkA) on Unsplash*
+![Young Ivo and granpa]({{site.baseurl}}/images/about/granpa-and-ivo.jpg)
+*Young Ivo and granpa (what a cutie!)*
 
 <br>
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+My granpa still tells with a thick neapolitan accent –despite having spent most of his life in Spain– that, when I was 4, I decided that <strong>I wanted to build robots</strong>. My reasoning was something in the lines of this:
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+> In the future, robots will do all the work, so the only reasonable profession to pursue is to build and repair robots (until they repair themselves!)
+–<i>Young Ivo, 1998</i>
+
+<!-- (Yes, I'm quoting myself. This is <i>my</i> website, isn't it?)
+
+<br> -->
+
+I spent part of my youth wondering if I was a visionary, but as I grew older, I started to figure out that the underlying reasoning behind that affirmation might be that I've never actually wanted to work (let robots brew your coffee and so on). The thing is that <strong>I've always enjoyed creating stuff</strong>. 
 
 <br>
 
-### Podcasting
+Sadly, my math skills have been way below average since I can remember, so robotics never seemed like a viable option. Neither did architechture or software engineering, so I decided to pursue a creative career.
 
-Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable [Hugo Sousa](https://unsplash.com/photos/BghGseQbAkA) customer service through sustainable potentialities.
+<br>
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or "organic" sources.
+#### Is show business one word or two?
+
+I started shooting short films with my friends when I was 15, and after taking a brief production course in the world famous University of Murcia, in 2012 we released a webseries called <strong>LevelUp!</strong>
+
+<br>
+
+![LevelUp!]({{site.baseurl}}/images/about/02.jpeg)
+*The production team*
+
+<br>
+
+We were broke, so we followed the <i>lean startup</i> philosophy three years before learning what the hell that was: that camera belongs to CAMON (God bless you, guys). I learned to do some graphic design while editing the videos, and thanks to that I got some design jobs with local businesses.
+
+<br>
+
+At some point, people started recognising us in the streets, so I decided to cold mail as much YouTube partners as one could find. "It's time to start a business", I guessed. It looks like lots of fun, doesn't it?
+
+<br>
+
+I don't really know if I did think that this show was way better than it was, or I was just comparing it to a really poor competition, but as you can imagine, this was not a great business idea. But nevertheless, I packed up my stuff and moved to Madrid to see what's that show business all about.
+
+<br>
+
+Somehow I managed to sign with the same partner as the biggest hit at the moment, Malviviendo, but I didn't want to face that my peers were not as engaged as I was with that project. At the end of the day, I did the shooting, most of the scriptwriting, the cutting and the cheerleading; for me, it was <i>our</i> future, but for them it was just a fun thing to do on the weekends, so things started to get colder as soon as I left and we eventually stopped shooting.
+
+<br>
+
+#### What the hell is a startup, anyways?
+
+Mingling with the local <i>youtubers</i> led me to a job in a eSports production studio that somehow combined the two things I did best at that moment: producing video and designing stuff for videos. Here I met Sean, a software engineer student and ex-youtuber who soon would become my co-founder.
+
+<br>
+
+I didn't know a single thing about the startup world, but this guy was so driven by his idea that we eventually dropped university and went full on with it: <a href="gamify"><strong>Gamify</strong></a> was a social network where you could turn into achievements every single thing you did, like skydiving or getting your college degree.
+
+<br>
+
+According to Gartner, gamification was one of the hottest topics at that time, so... I guessed it made sense to adapt the classic garage entrepreneur story to our context: I was living in a flat with a shared patio, so that'd be our garage.
+
+<br>
+
+![Gamify]({{site.baseurl}}/images/about/gamify.jpg)
+*Sean and I at the "garage"*
+
+<br>
+
+Building Gamify I learned about product design and development, HTML and CSS, a little bit of JavaScript, customer success, community building, user research, Mixpanel, Unbounce, InVision, Sketch, team building, digital marketing and to deal with influencers (and engineers!)
+
+<br>
+
+We were accelerated by <strong>Tetuan Valley</strong> and joined the <strong>Google for Startups</strong> community. At some point, we assembled an amazing team of two product designers (Carolina and Hekady), three developers (Gonzalo, Carlos and Mencey), one communicator (another Carlos–everyone in Spain is called <i>Carlos</i>, fyi), one accountant (Javi) and one filmmaker (Satu). 
+
+<br>
+
+<p><iframe src="https://www.youtube.com/watch?v=16gTCYtD5UA&feature=youtu.be" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+
+<br>
+
+We also had this amazing intern called <a href="https://www.linkedin.com/in/jared-penner-b534a8143/">Jared</a> who now is a big boss at Amazon or something like that.
+
+<br>
+
+Gamify connected people from many different places, and we still have contact with some of our very early testers; we met amazing people and started long-lasting friendhips, but we didn't have the expertise to turn it into an actual business. Eventually, we had to pull the plug and move on to the next adventure.
+
+<br>
+
+#### Currywurst mit pommes
+
+The coolest thing we did with Gamify was signing up for the Spacehack, a hackathon organised by Facebook in Berlin to help syrian refugees that arrived in Europe with the infinite problems that they faced (and face) when they arrive to Europe asking for asylum.
+
+<br>
+
+I fell in love with the city, and after closing Gamify in 2017, I moved there to work with <strong>Mensch</strong>, a video production company with a social focus. We did some pretty cool stuff, I learned a lot from senior managers like Ruha and joined the Factory community, where I had the chance to join the Design Circle in its very first days of life.
+
+<br>
+
+![Gamify]({{site.baseurl}}/images/about/gamify.jpg)
+*Sean and I at the "garage"*
+
+<br>
+
+Soon I realised that I was in some kind of transition state, and that I didn't really want to live in that city and/or pursue that lifestyle. When Carlos and I started spending some time in the evenings thinking about new projects to build together, I also realised that I missed my friends and my family, and that I wanted to pursue the path of the maker, whatever that was.
+
+<br>
+
+#### <i>Personal finances</i> sounds way more boring that what it really is
+
+I moved back to Madrid to work with Arbor to build the european Acorn.
+
+<br>
 
 <div class="gallery-box">
   <div class="gallery">
@@ -49,24 +141,6 @@ Collaboratively administrate turnkey channels whereas virtual e-tailers. Objecti
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-
-Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.
-
 <br>
-
-### Synergistically evolve
-
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
-
-<br>
-
-<p><iframe src="https://player.vimeo.com/video/147264547?title=0&byline=0" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-<br>
-
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
-
-Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for change. Seamlessly underwhelm optimal testing procedures whereas bricks-and-clicks processes.
 
 ***
