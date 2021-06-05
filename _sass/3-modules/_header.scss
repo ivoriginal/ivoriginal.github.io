@@ -294,8 +294,44 @@
 .nav-cta .button {
   margin-left: 48px;
 
-  @media only screen and (min-width: $tablet) and (max-width: $desktop) {
+  @media only screen and (min-width: $tablet + 1) and (max-width: $desktop) {
     display: none;
   }
   
+}
+
+.tabs {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  min-height: 40px;
+  align-items: center;
+  top: 64px;
+
+  @media screen and (max-width: $mobile) {
+    display: flex;
+  }
+
+  .tab {
+    border-right: 1px solid var(--gray);
+    padding: 0px 16px;
+    margin-bottom: 0px;
+    margin: 12px 0;
+
+    :hover {
+      font-weight: 600;
+    }
+
+  }
+
+  .tab:last-child {
+    border-right: none;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
 }
