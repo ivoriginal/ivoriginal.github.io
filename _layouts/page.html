@@ -3,28 +3,25 @@ layout: default
 ---
 
 <div class="container margin-top">
-  <div class="row">
+  <div class="row page">
     <div class="col col-12">
       <div class="page__info">
         <h1 class="page__title">{{ page.title | escape }}</h1>
-        <h2 class="page__description">{{ page.description }}</h2>
+        <p class="page__description">{{ page.description }}</p>
       </div>
     </div>
   </div>
 </div>
 
 <!-- begin page -->
-<div class="container animate serif">
 
-  {% if page.image %}
-  <div class="row">
-    <div class="col col-12">
-      <div class="page-image">
-        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
-      </div>
-    </div>
-  </div>
-  {% endif %}
+{% if page.image %}
+<div class="page-image">
+  <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+</div>
+{% endif %}
+
+<div class="container animate serif page">
 
   <article class="page">
     <div class="page__content">
