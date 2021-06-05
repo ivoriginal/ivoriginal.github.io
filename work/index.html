@@ -1,93 +1,73 @@
 ---
-layout: default
+layout: portfolio
 title: Work
 description: 'Cool stuff people pay me to do'
 ---
 
-<!-- begin hero -->
-<section class="hero-2">
+<!-- Portfolio -->
+<section id="portfolio" class="hero-2 background-gray">
   <div class="container">
     <div class="row">
       <div class="col col-10 col-d-12">
         <div class="hero__inner">
-          {% if page.title %}
-            <h1 class="hero__title">{{ page.title }}</h1>
-          {% endif %}
-          {% if page.description %}
+            <h1 class="hero__title">Portfolio</h1>
             <p class="hero__description">{{ page.description }}</p>
-          {% endif %}
         </div>
       </div>
-      <!-- <div class="col col-2 avatar">
-        <img src="/images/avatar_no-bg.png" />
-      </div> -->
     </div>
   </div>
-</section>
-<!-- end hero -->
-
-<!-- begin subscribe -->
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <section class="banner">
-        <div class="banner__head">
-          <h2 class="banner__title">Let's do cool stuff together</h2>
-          <p class="banner__subtitle">Schedule a 30 min call in my Calendly to get to know each other</p>
-        </div>
-        <a href="https://calendly.com/ivoriginal" target="_blank" class="button button--primary" name="subscribe">Check availability</a>
-      </section>
-    </div>
-  </div>
-</div>
-<!-- end subscribe -->
-
-<div class="portfolio__gallery animate">
-  <div class="container">
-    <div class="row">
-      {% for card in site.data.settings.portfolio.portfolio__gallery %}
-        {% include card.html %}
-      {% endfor %}
-    </div>
-    <!-- begin subscribe -->
+  <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
-        <div class="col col-12">
-          <section class="subscribe">
-            <div class="subscribe__head">
-              <h2 class="subscribe__title">Se vienen cositas</h2>
-            </div>
-          </section>
+        {% for card in site.data.settings.portfolio.portfolio__gallery %}
+          {% include card.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% include banner.html %}
+</section>
+<!-- /Portfolio -->
+
+<!-- Speaker -->
+<section id="speaker" class="hero-2 background-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col col-10 col-d-12">
+        <div class="hero__inner">
+            <h1 class="hero__title">Speaker and mentor</h1>
+            <p class="hero__description">Places I've had free beer</p>
         </div>
       </div>
     </div>
-    <!-- end subscribe -->
   </div>
-</div>
+  {% include banner.html %}
+</section>
+<!-- /Speaker -->
 
-<!-- begin hero -->
-<section class="hero-2">
+<!-- Projects -->
+<section id="projects" class="hero-2 background-gray">
   <div class="container">
     <div class="row">
       <div class="col col-10 col-d-12">
         <div class="hero__inner">
             <h1 class="hero__title">Projects</h1>
-          {% if page.description %}
-            <p class="hero__description">{{ page.description }}</p>
-          {% endif %}
+            <p class="hero__description">Stuff I don't get paid for</p>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- end hero -->
 
-<div class="portfolio__gallery animate">
-  <div class="container">
-    <div class="row">
-      {% for card in site.data.settings.portfolio.portfolio__gallery %}
-        {% include card.html %}
-      {% endfor %}
+  <div class="portfolio__gallery animate">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+        Trash Slayer, Fields of Oniria
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  
+  {% include banner.html %}
+</section>
+<!-- /Projects -->
