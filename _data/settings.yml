@@ -33,43 +33,84 @@ hero:
 # Portfolio Settings
 portfolio:
   portfolio__title: Work
-  portfolio__subtitle: Cool stuff people pay me to do and personal projects
+  portfolio__subtitle: Cool stuff people pay me to do (and personal projects)
   portfolio__gallery:
-    - image: /images/gallery-02.jpg
+    - image: /images/work/gfs-directory.png
       title: Community Directory
       description: A digital roster to help people connect
       client: Google for Startups
-      url: /portfolio/gfs-directory
+      industry: Community Management
+      url: /work/gfs-directory
 
-    - image: /images/no-more-haters.jpg
+    - image: /images/work/no-more-haters.png
       title: No More Haters
       description: Games to fight hate speech
       client: maldita.es
+      industry: NGO
       url: no-more-haters
 
-    - image: /images/gallery-03.jpg
+    - image: /images/work/poin.png
       title: POiN Places
       description: A city guide for families
-      client: Motherfounders
+      client: POiN
+      industry: Family and leisure
       url: poin-places
 
-    - image: /images/gallery-03.jpg
+    - image: /images/work/arbor.png
+      title: Arbor
+      description: White wooden table near brown chair
+      client: Arbor Fintech
+      industry: Fintech
+      url: arbor
+
+    - image: /images/work/ringo.png
+      title: Ringo
+      description: White wooden table near brown chair
+      client: 7r Ventures
+      industry: Real State
+      url: ringo
+
+    - image: /images/work/giv.png
       title: GIV.
       description: A city guide for families
-      client: Dona
+      client: Donna Nairi
+      industry: Fintech
       url: poin-places
 
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+    - image: /images/work/domolock.png
+      title: Domolock
+      description: White wooden table near brown chair
+      client: Domolock
+      industry: Social Networking
+      url: gamify
 
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+    - image: /images/work/hocelot.png
+      title: Hocelot
+      description: White wooden table near brown chair
+      client: Hocelot
+      industry: Fintech
+      url: hocelot
 
-    - image: /images/gallery-03.jpg
-      title: Bench Accounting
-      description: White wooden table near brown chair <a href="https://unsplash.com/photos/nvzvOPQW0gc">Unsplash</a>
+    - image: /images/work/gamify.png
+      title: Gamify
+      description: White wooden table near brown chair
+      client: Gamify
+      industry: Social Networking
+      url: gamify
+
+    - image: /images/work/cango.png
+      title: Cango
+      description: White wooden table near brown chair
+      client: 7r Ventures
+      industry: Real State
+      url: ringo
+
+    - image: /images/work/pvdesign.png
+      title: pvDesign
+      description: White wooden table near brown chair
+      client: RatedPower
+      industry: Real State
+      url: ringo
 
 
 #-------------------------------
