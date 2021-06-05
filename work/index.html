@@ -29,21 +29,39 @@ description: 'Cool stuff people pay me to do'
 </section>
 <!-- /Portfolio -->
 
-<!-- Speaker -->
+<!-- Courses -->
 <section id="speaker" class="hero-2 background-gray">
   <div class="container">
     <div class="row">
       <div class="col col-10 col-d-12">
         <div class="hero__inner">
-            <h1 class="hero__title">Speaker and mentor</h1>
-            <p class="hero__description">Places I've had free beer</p>
+            <h1 class="hero__title">Workshops and talks</h1>
+            <p class="hero__description">I talk about design in exchange for money and/or food</p>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 col-d-12">
+        <p><iframe src="https://www.youtube.com/watch?v=16gTCYtD5UA&feature=youtu.be" width="100%" height="576" frameborder="0" allowfullscreen></iframe></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio__gallery animate">
+    <div class="container">
+      <div class="row">
+        {% for card in site.data.settings.charlas.charlas__list %}
+          {% include card.html %}
+        {% endfor %}
       </div>
     </div>
   </div>
   {% include banner.html %}
 </section>
-<!-- /Speaker -->
+<!-- /Courses -->
 
 <!-- Projects -->
 <section id="projects" class="hero-2 background-gray">
@@ -61,9 +79,9 @@ description: 'Cool stuff people pay me to do'
   <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
-        <div class="col col-12">
-        Trash Slayer, Fields of Oniria
-        </div>
+        {% for card in site.data.settings.projects.project__list %}
+          {% include card.html %}
+        {% endfor %}
       </div>
     </div>
   </div>
