@@ -18,7 +18,7 @@
 
         <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
-        <p class="article__excerpt">{% if card.client %}Client: {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
+        <p class="article__excerpt">{% if card.client %}<strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
       </div>
     </div>
