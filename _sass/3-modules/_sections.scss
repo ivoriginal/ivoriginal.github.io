@@ -1,6 +1,6 @@
 /* Sections */
 .section {
-  margin-bottom: 40px;
+  padding-bottom: 24px;
 
   // @media only screen and (max-width: $mobile) {
   //   margin-bottom: 80px;
@@ -71,8 +71,8 @@
   color: var(--brand-color);
 
   &:hover {
-    text-decoration-color: var(--heading-font-color);
-    color: var(--link-color-hover);
+    // text-decoration-color: var(--heading-font-color);
+    background-color: var(--medium-gray);
   }
 
   @media only screen and (max-width: $tablet) {
@@ -91,7 +91,7 @@
 
 // adds divider to section heads
 .portfolio .section__head, .blog .section__head {
-  border-top: 1px solid var(--medium-gray);
+  // border-top: 1px solid var(--medium-gray);
   padding-top: 40px;
 }
 
