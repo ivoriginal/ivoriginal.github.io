@@ -13,6 +13,11 @@
     }
   }
 
+  // adds solid background to cards
+  .article__inner {
+    background-color: white;
+  }
+
   @media only screen and (max-width: $mobile) {
     margin-bottom: 16px;
   }
