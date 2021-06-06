@@ -300,3 +300,14 @@ body {
 .flex {
   display: flex;
 }
+
+p {
+  line-height: 1.2;
+}
+
+// subtitle
+.page p {
+  line-height: 1.4;
+  font-size: $base-font-size * 1.250;
+  margin-top: 8px;
+}
