@@ -1,5 +1,5 @@
 <!-- begin now -->
-<section class="section background-gray">
+<section class="section">
 
     <div class="container">
       <div class="row">
@@ -17,14 +17,15 @@
       </div>
     </div>
 
-      <div class="container">
-        <div class="row">
-          {% for news in site.data.settings.now.now__content limit:3 %}
-            {% include article-now.html %}
-          {% endfor %}
-        </div>
+    <div class="container">
+      <div class="row">
+        {% for news in site.data.settings.now.now__content limit:3 %}
+          {% include article-now.html %}
+        {% endfor %}
       </div>
+      <hr style="margin-top: 64px;">
     </div>
+  </div>
 
 </section>
 <!-- end now -->
