@@ -16,8 +16,8 @@ menu__settings:
       url: '/now/'
     - title: 'Work'
       url: '/work/'
-    - title: 'Blog'
-      url: '/blog/'
+    # - title: 'Blog'
+    #   url: '/blog/'
     - title: 'About'
       url: '/about/'
 
@@ -33,7 +33,7 @@ hero:
 # Portfolio Settings
 portfolio:
   portfolio__title: Work
-  portfolio__subtitle: Cool stuff people pay me to do (and personal projects)
+  portfolio__subtitle: Cool stuff people pay me to do, talks and workshops and personal projects
   portfolio__gallery:
     - image: /images/work/gfs-directory.png
       title: Community Directory
@@ -44,7 +44,7 @@ portfolio:
 
     - image: /images/work/no-more-haters.png
       title: No More Haters
-      description: Games to fight hate speech
+      description: Games to fight hate speech and fake news
       client: maldita.es
       industry: NGO
       url: no-more-haters
@@ -164,33 +164,39 @@ now:
   now__subtitle: It's happening!
   now__content:
     - image: /images/commit-sans.jpg
-      title: Founding a studio called Commit Sans
-      description: where we design and develop software. 0% bullshit 100% product.
+      title: 
+      description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
       url: commit-sans
+      cta: It's a Commit-ment
 
       # image: /images/gallery-01.jpg
     - image: /images/community-tools.png
-      title: Building a set of tools to help people connect
-      description: in communities like Google for Startups Madrid, Tel Aviv and Seoul.
+      title: 
+      description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
       url: community-tools
+      cta: More like Commu-nice-ty Tools
 
     - image: /images/gallery-01.jpg
-      title: Teaching the Product Design course at Fictizia
-      description: where we learn how to design and develop digital products.
-      url: commit-sans
+      title: 
+      description: Teaching the Product Design course at <strong>Fictizia</strong> where we learn how to design and develop digital products.
+      url: fictizia
+      cta: An apple a day
 
     - image: /images/gallery-01.jpg
-      title: Designing an open source design knowledge base
-      description: to help newcomers learn the craft and find trusted sources.
-      url: commit-sans
+      title: 
+      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft and find trusted sources.
+      url: design-resources
+      cta: Open source that sh*t
 
     - image: /images/gallery-01.jpg
-      title: Writing and recording a death metal album
-      description: it's not actually death metal, but it really djents.
+      title: 
+      description: Writing and recording a death metal album with symphonic elements and weird shit.
+      cta: Does it djent?
 
     - image: /images/gallery-01.jpg
-      title: Developing a game called Trash Slayer
-      description: but learning to use Unity is a real pain in the ass.
+      title: 
+      description: Developing a game called <strong>Trash Slayer</strong>. Learning to use Unity is a real pain in the ass.
+      cta: Player 1 Press Start
 
 
 #-------------------------------
