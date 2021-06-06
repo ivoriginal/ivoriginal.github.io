@@ -36,7 +36,12 @@
 
   }
 
-} // /button
+}
+
+// changes link background
+.hero__description a:hover {
+  background-color: var(--gray);
+}
 
 .hero-blog {
   padding: 116px 0 64px 0;
@@ -64,11 +69,7 @@
 
 // hero adjusted for subsections
 .hero-2 {
-  padding: 156px 0 32px 0;
-
-  @media only screen and (max-width: $desktop) {
-    padding: 188px 0 16px 0;
-  }
+  padding: 104px 0 8px 0;
 
   .hero__title {
     margin-bottom: 0px !important;
@@ -80,6 +81,12 @@
 
 }
 
+.work .hero-2 {
+  padding: 148px 0 32px 0;
+  // padding: 72px 0 32px 0;
+}
+
+// 
 .hero__inner {
 
   .hero__title {
@@ -110,6 +117,7 @@
   }
 }
 
+// 
 .home__title {
 
   margin-bottom: 1rem;
@@ -129,6 +137,7 @@
 
 }
 
+// 
 .avatar {
   @media only screen and (max-width: $desktop) {
     align-self: center;
@@ -139,4 +148,10 @@
     margin-top: 40px;
   }
 
+}
+
+// ivosaurio
+.avatar-2 {
+  width: 100px;
+  margin-right: 16px;
 }
