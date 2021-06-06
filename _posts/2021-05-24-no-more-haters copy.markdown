@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Una ciudad más child friendly
+title:  Cinco cosas que no sabías sobre Obama y los Power Rangers
 date:   2021-05-24 15:01:35 +0300
-image:  'https://poinplaces.com/wp-content/uploads/2021/01/2.3-HOME-BANNER-RESTAURANTES-.jpg'
-tags:   [fashion, story, rest]
+image:  '/images/work/no-more-haters.jpg'
+tags: Política
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace [Becca Tapert](https://unsplash.com/photos/lA7OhpEMRug) diversity and empowerment.
 
