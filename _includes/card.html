@@ -1,4 +1,4 @@
-<div class="article now col col-4 col-d-4 col-t-12">
+<div class="article card col col-4 col-d-4 col-t-12">
   <a href="{{card.url | prepend: site.baseurl}}">
     <div class="article__inner">
 
@@ -18,7 +18,7 @@
 
         <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
-        <p class="article__excerpt">{% if card.client %}<strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
+        <p class="article__excerpt" style="margin-top: 8px;">{% if card.client %}<strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
         {% if card.cta %}
         <a class="button button--outline">hola</a>
