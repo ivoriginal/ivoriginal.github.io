@@ -3,7 +3,7 @@ layout: page
 title: Who the f*ck is Ivo?
 description: A story about oranges, design, corruption, and thunderstorms
 permalink: /about/
-image: '/images/01.jpg'
+image: '/images/about/01.jpg'
 ---
 
 #### Let robots do it
@@ -38,7 +38,7 @@ Sadly, my math skills have been way below average since I can remember, so robot
 
 <br>
 
-#### Is show business one word or two?
+#### Is <i>show business</i> one word or two?
 
 I started shooting short films with my friends when I was 15, and after taking a brief production course in the world famous University of Murcia, in 2012 we released a webseries called <strong>LevelUp!</strong>
 
@@ -49,7 +49,7 @@ I started shooting short films with my friends when I was 15, and after taking a
 
 <br>
 
-We were broke, so we followed the <i>lean startup</i> philosophy three years before learning what the hell that was: that camera belongs to CAMON (God bless you, guys). I learned to do some graphic design while editing the videos, and thanks to that I got some design jobs with local businesses.
+We were broke, so we followed the <i>lean startup</i> philosophy three years before learning what the hell that was: that camera belongs to CAMON (God bless you, guys). I learned to do some graphic design while editing the videos (and rotoscopy, After Effects, sound production, scriptwriting...), and thanks to that I got some design jobs with local businesses.
 
 <br>
 
@@ -57,17 +57,17 @@ At some point, people started recognising us in the streets, so I decided to col
 
 <br>
 
-I don't really know if I did think that this show was way better than it was, or I was just comparing it to a really poor competition, but as you can imagine, this was not a great business idea. But nevertheless, I packed up my stuff and moved to Madrid to see what's that show business all about.
+I don't really know if I did think that this show was way better than it was, or I was just comparing it to a really poor competition, but as you can imagine, this was not a great business idea. Nevertheless, I packed up my stuff and moved to Madrid to see what's that show business all about.
 
 <br>
 
-Somehow I managed to sign with the same partner as the biggest hit at the moment, Malviviendo, but I didn't want to face that my peers were not as engaged as I was with that project. At the end of the day, I did the shooting, most of the scriptwriting, the cutting and the cheerleading; for me, it was <i>our</i> future, but for them it was just a fun thing to do on the weekends, so things started to get colder as soon as I left and we eventually stopped shooting.
+Somehow I managed to sign with the same partner as the biggest hit at the moment, Malviviendo, but I didn't want to face that my peers were not as engaged as I was with that project. At the end of the day, I did all the pre and post work; for me, it was <i>our</i> future, but for them it was just a fun thing to do on the weekends, so things started to get colder as soon as I left and we eventually stopped shooting.
 
 <br>
 
 #### What the hell is a startup, anyways?
 
-Mingling with the local <i>youtubers</i> led me to a job in a eSports production studio that somehow combined the two things I did best at that moment: producing video and designing stuff for videos. Here I met Sean, a software engineer student and ex-youtuber who soon would become my co-founder.
+Mingling with the local <i>youtubers</i> in the city led me to a job in a eSports production studio that somehow combined the two things I did best at that moment: producing video and designing stuff for videos. There I met Sean, a software engineer student and ex-youtuber who soon would become my co-founder.
 
 <br>
 
@@ -125,22 +125,6 @@ Soon I realised that I was in some kind of transition state, and that I didn't r
 
 #### <i>Personal finances</i> sounds way more boring that what it really is
 
-I moved back to Madrid to work with Arbor to build the european Acorn.
-
-<br>
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/09.jpg">
-    <img src="/images/06.jpg">
-    <img src="/images/03.jpg">
-    <img src="/images/08.jpg">
-    <img src="/images/05.jpg">
-    <img src="/images/11.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-<br>
+Soon after moving back to Madrid, I received a few job offerings from my newtork, but I didn't really know what I wanted to do (besides being able to pay rent and eating and so on). After having a very interesting conversation with Nicholas Salguero, I decided to join him at Arbor, a fintech company commited to help "the 99%" to save more money and learn to invest. 
 
 ***
