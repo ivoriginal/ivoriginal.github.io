@@ -10,6 +10,9 @@
 
         <p class="article__excerpt">{% if news.description %}{{ news.description }}{% else %}{{ news.content | strip_html | truncate: 80 }}{% endif %}</p>
 
+        {% if news.cta %}
+        <a class="button button--outline" style="margin-top: 16px;">{{ news.cta }}</a>{% endif %}</a>
+
       </div>
     </div>
   </a>
