@@ -13,11 +13,12 @@
     align-items: center;
     flex-wrap: wrap;
     padding: $base-spacing-unit;
+    justify-content: space-between;
   
+    // aligns mobile bottom navigation
     @media only screen and (max-width: $tablet) {
       // padding: 40px $base-spacing-unit;
       text-align: center;
-      justify-content: space-between;
     }
   }
 }
@@ -317,9 +318,9 @@
   align-items: center;
   top: 64px;
 
-  @media screen and (max-width: $mobile) {
-    display: flex;
-  }
+  // @media screen and (max-width: $mobile) {
+  //   display: flex;
+  // }
 
   .tab {
     border-right: 1px solid var(--gray);
