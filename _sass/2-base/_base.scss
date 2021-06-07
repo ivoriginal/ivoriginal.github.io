@@ -10,6 +10,7 @@ body {
   background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // background-color: var(--light-gray);
 
   @media only screen and (min-width: $tablet - 1) {
     font-size: $base-font-size * 1.250;
@@ -115,7 +116,7 @@ img,
 .gallery {
   &+em {
     display: block;
-    margin-top: 20px;
+    margin-top: 12px;
     font-size: 12px;
     line-height: 22px;
     font-style: normal;
@@ -267,12 +268,12 @@ table td {
 }
 
 .margin-bottom {
-  margin-bottom: 24px;
+  margin-bottom: 56px;
 }
 
 body {
   @media only screen and (max-width: $tablet) {
-    padding-bottom: 64px;
+    padding-bottom: 56px;
   }
 }
 
