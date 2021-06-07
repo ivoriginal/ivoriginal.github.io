@@ -26,14 +26,14 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hey! I'm Ivo, a freelance Product Designer, teacher, musician and hand model*
-  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read how I <a href="/blog">struggle to learn</a> web development and know a little bit more <a href="/about">about me</a>.
+  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="" onclick="myFunction()">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
 
 
 #-------------------------------
 # Portfolio Settings
 portfolio:
   portfolio__title: Work
-  portfolio__subtitle: Cool stuff people pay me to do, talks and workshops and personal projects
+  portfolio__subtitle: Cool stuff people pay me to do, talks and workshops, personal projects
   portfolio__gallery:
     - image: /images/work/gfs-directory.png
       title: Community Directory
@@ -47,77 +47,77 @@ portfolio:
       description: Games to fight hate speech and fake news
       client: maldita.es
       industry: NGO
-      url: no-more-haters
+      url: /work/no-more-haters
 
     - image: /images/work/poin.png
       title: POiN Places
       description: A city guide for families
       client: POiN
       industry: Family and leisure
-      url: poin-places
+      url: /work/poin
 
     - image: /images/work/arbor.png
       title: Arbor
       description: White wooden table near brown chair
       client: Arbor Fintech
       industry: Fintech
-      url: arbor
+      url: /work/arbor
 
     - image: /images/work/ringo.png
       title: Ringo
       description: White wooden table near brown chair
       client: 7r Ventures
       industry: Real State
-      url: ringo
+      url: /work/ringo
 
     - image: /images/work/giv.png
       title: GIV.
       description: A city guide for families
       client: Donna Nairi
       industry: Fintech
-      url: poin-places
+      url: /work/giv
 
     - image: /images/work/trenlab.png
       title: Trenlab Trivia
       description: Fun fun fun
       client: Wayra
       industry: 
-      url: trenlab-trivia
+      url: /work/trenlab-trivia
 
     - image: /images/work/domolock.png
       title: Domolock
       description: White wooden table near brown chair
       client: Domolock
       industry: Social Networking
-      url: gamify
+      url: /work/domolock
 
     - image: /images/work/hocelot.png
       title: Hocelot
       description: White wooden table near brown chair
       client: Hocelot
       industry: Fintech
-      url: hocelot
+      url: /work/hocelot
 
     - image: /images/work/gamify.png
       title: Gamify
       description: White wooden table near brown chair
       client: Gamify
       industry: Social Networking
-      url: gamify
+      url: /work/gamify
 
     - image: /images/work/cango.png
       title: Cango
       description: White wooden table near brown chair
       client: 7r Ventures
       industry: Real State
-      url: ringo
+      url: /work/cango
 
     - image: /images/work/pvdesign.png
       title: pvDesign
       description: White wooden table near brown chair
       client: RatedPower
       industry: Real State
-      url: ringo
+      url: /work/pvdesign
 
 #-------------------------------
 # Charlas
@@ -161,7 +161,7 @@ projects:
 # Now Settings
 now:
   now__title: Now
-  now__subtitle: It's happening!
+  now__subtitle: test
   now__content:
     - image: /images/commit-sans.jpg
       title: 
