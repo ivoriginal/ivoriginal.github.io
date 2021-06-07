@@ -13,8 +13,26 @@
 
   // adjust home button position
   .button {
-    margin-top: 8px;
+    margin-top: 64px;
     text-align: center;
+  }
+
+  // 
+  @media only screen and (min-width: $desktop) {
+    // fixes space between text and button
+    .button {
+      margin-top: 16px;
+    }
+  }
+
+  // 
+  @media only screen and (max-width: $tablet) {
+
+    // fixes space between text and button
+    .button {
+      margin-top: 56px;
+    }
+
   }
 
   @media only screen and (max-width: $desktop) {
@@ -27,11 +45,6 @@
     // swaps img and text
     .row {
       flex-direction: column-reverse;
-    }
-
-    // fixes space between text and button
-    .button {
-      margin-top: 48px;
     }
 
   }
@@ -60,7 +73,6 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   }
-
 }
 
 .header-blog .button {
@@ -88,6 +100,10 @@
 
 // 
 .hero__inner {
+
+    p {
+      line-height: 1.4;
+    }
 
   .hero__title {
     margin-bottom: 1rem;
@@ -139,15 +155,24 @@
 
 // 
 .avatar {
+  // 
+  @media only screen and (max-width: $desktop) {
+    align-self: center;
+  }
+}
+
+// 
+.hero .avatar {
+  // 
   @media only screen and (max-width: $desktop) {
     align-self: center;
     margin-top: 48px;
   }
 
+  // 
   @media only screen and (max-width: $mobile) {
     margin-top: 40px;
   }
-
 }
 
 // ivosaurio
