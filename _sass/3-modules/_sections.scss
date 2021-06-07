@@ -20,7 +20,6 @@
     padding: 2px 8px;
     border-radius: 4px;
   }
-
 }
 
 .section__head {
@@ -51,6 +50,11 @@
       content: none;
     }
   }
+}
+
+// text below big heading and button
+.section__subtitle {
+  font-size: 1.4rem;
 }
 
 .section__title {
