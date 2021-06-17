@@ -4,7 +4,7 @@
 
 body {
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: $base-font-size * 1.250;
   line-height: $base-line-height;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -12,13 +12,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   // background-color: var(--light-gray);
 
-  @media only screen and (min-width: $tablet - 1) {
-    font-size: $base-font-size * 1.250;
-  }
-
-  @media only screen and (min-width: $desktop) {
-    font-size: $base-font-size;
-  }
+  // @media only screen and (min-width: $desktop) {
+  //   font-size: $base-font-size;
+  // }
 
 }
 
@@ -68,7 +64,7 @@ blockquote {
   position: relative;
   margin: 40px 0;
   padding-left: 26px;
-  font-size: 24px;
+  font-size: $base-font-size * 1.250 * 1.250;
   line-height: 1.7;
   font-weight: 500;
   border-left: 4px solid var(--heading-font-color);
@@ -116,7 +112,7 @@ img,
 .gallery {
   &+em {
     display: block;
-    margin-top: 12px;
+    margin-bottom: 40px;
     font-size: 12px;
     line-height: 22px;
     font-style: normal;
@@ -309,6 +305,32 @@ p {
 // subtitle
 .page p {
   line-height: 1.4;
-  font-size: $base-font-size * 1.250;
+  // font-size: $base-font-size * 1.250;
   margin-top: 8px;
+  margin-bottom: 16px;
+
+  img {
+    margin: 16px 0;
+  }
+
 }
+
+.page h4 {
+  margin-top: $base-spacing-unit * 1.5;
+}
+
+// 
+// .background-hover {
+//   :hover {
+//   border-radius: 50px;
+//   background: var(--gray);
+//   }
+//   .material-icons {
+//     padding: 12px;
+
+//     @media screen and (max-width: $tablet) {
+//       padding: 8px;
+//     }
+
+//   }
+// }
