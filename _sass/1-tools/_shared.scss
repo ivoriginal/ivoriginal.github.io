@@ -17,6 +17,10 @@
  * Consistent indentation for lists.
  */
 
+ul {
+  margin-bottom: $base-spacing-unit;
+}
+
 ul, ol,
 dd {
   margin-left: $base-spacing-unit;
