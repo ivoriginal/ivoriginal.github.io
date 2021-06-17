@@ -70,3 +70,7 @@
 function myFunction() {
   alert("Coming soon");
 }
+
+function goBack() {
+  window.history.back();
+}
