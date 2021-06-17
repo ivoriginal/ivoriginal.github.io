@@ -1,4 +1,15 @@
 /* Header */
+.header {
+
+  height: 72px;
+
+  @media only screen and (max-width: $tablet) {
+    max-height: 64px;
+    padding: 8px;
+  }
+}
+
+
 .header, .header-blog {
   background-color: #fafafa;
   border-bottom: 1px solid #e0e0e0;
@@ -15,9 +26,9 @@
     padding: $base-spacing-unit;
     justify-content: space-between;
   
-    // aligns mobile bottom navigation
     @media only screen and (max-width: $tablet) {
       // padding: 40px $base-spacing-unit;
+      padding: 4px;
       text-align: center;
     }
   }
@@ -29,6 +40,14 @@
 }
 
 /* Logo */
+.logo {
+  a {
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .logo__link {
   padding: 4px 0;
   font-family: $heading-font-family;
