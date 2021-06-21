@@ -319,6 +319,18 @@ p {
   margin-top: $base-spacing-unit * 1.5;
 }
 
+iframe {
+
+  margin-bottom: 24px;
+
+  @media only screen and (max-width: $tablet) {
+    height: 297px;
+  }
+  @media only screen and (min-width: $desktop) {
+    min-height: 398px;
+  }
+}
+
 // 
 // .background-hover {
 //   :hover {
