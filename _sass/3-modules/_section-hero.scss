@@ -80,7 +80,7 @@
 }
 
 // hero adjusted for subsections
-.hero-2 {
+.hero-2, .hero-3 {
   padding: 104px 0 8px 0;
 
   .hero__title {
@@ -93,9 +93,14 @@
 
 }
 
+// 
 .work .hero-2 {
   padding: 148px 0 32px 0;
   // padding: 72px 0 32px 0;
+}
+
+.hero-3 {
+  padding: 56px 0 8px 0;
 }
 
 // 
