@@ -119,44 +119,57 @@ portfolio:
       industry: Real State
       url: /work/pvdesign
 
+
 #-------------------------------
 # Charlas
 charlas:
   charlas__title: Talks
   charlas__subtitle: I talk about design in exchange for money and/or food
   charlas__list:
-    - image: /images/work/gfs-directory.png
-      title: Product Design Essentials
-      description: A digital roster to help people connect
+    - image: /images/work/pde.png
+      title: Design for non-designers
+      description: From needfinding to user testing (60 minutes)
       cta: Book now
-      url: /work/gfs-directory
+      cta-2: More info
+      url: 
 
-    - image: /images/work/gfs-directory.png
-      title: Prototyping
-      description: A digital roster to help people connect
+    - image: /images/work/prototyping.png
+      title: Prototyping 101
+      description: From low fidelity wireframes to Wizard of Oz (60 minutes)
       cta: Book now
-      url: /work/gfs-directory
+      cta-2: More info
+      url: 
 
-    - image: /images/work/gfs-directory.png
+    - image: /images/work/material-design.png
       title: Intro to Material Design
-      description: A digital roster to help people connect
+      description: History and practice of Google's Design Language (12 hours)
       cta: Book now
-      url: /work/gfs-directory
+      cta-2: More info
+      url: 
 
 
 #-------------------------------
 # Projects
 projects:
   project__list:
-    - image: 
-      title: Trash Slayer
-      description: A videogame
-      url: /work/gfs-directory
 
-    - image: 
-      title: Fields of Oniria
-      description: A digital roster to help people connect
-      url: /work/gfs-directory
+    - image: /images/sacred-video.png
+      title: Old Hag's Mask
+      description: I shooted and edited this video for Sacred Wolves and had a lot of fun.
+      tags: video
+      url: https://www.youtube.com/watch?v=zegNRk_BLoo
+
+    - image: /images/trash-slayer.png
+      title: Trash Slayer
+      description: A game about slaying possessed trash bags. Coming Soon.
+      tags: videogame
+      url: https://www.instagram.com/tv/CCReMKNqkYe/
+
+    - image: /images/default.png
+      title: Untitled-Song-01.mp3
+      description: Yeah, that's the name of the song. For now. Send me your feedback!
+      tags: music
+      url: https://drive.google.com/file/d/1C6vHUxU4Z6d7wo0m3ODmya4e_iqeNcdc/view?usp=sharing
 
 
 #-------------------------------
