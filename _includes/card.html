@@ -20,8 +20,20 @@
 
         <p class="article__excerpt" style="margin-top: 8px;">{% if card.client %}<strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
+        {% if card.tags %}
+        <div class="tag">#{{ card.tags }}</div>
+        {% endif %}
+
         {% if card.cta %}
-        <a class="button button--outline">hola</a>
+        <div class="flex">
+          <!-- {% if card.cta %}
+          <a class="button button--primary">{{ card.cta }}</a>
+          {% endif %} -->
+
+          {% if card.cta-2 %}
+          <a class="button button--outline" href="mailto:ivo@commitsans.com">{{ card.cta-2 }}</a>
+          {% endif %}
+        </div>
         {% endif %}
 
       </div>
