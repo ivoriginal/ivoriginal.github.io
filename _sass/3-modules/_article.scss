@@ -22,13 +22,20 @@
 
   @media only screen and (max-width: $tablet) {
     margin-bottom: 16px;
+
+    // removes last card's margin bottom
+    .portfolio__gallery .container .row &:last-child {
+      margin-bottom: 0;
+    }
+
   }
 
   @media only screen and (min-width: $tablet - 1) and (max-width: $desktop - 1) {
 
     width: 50%;
 
-    .portfolio__gallery .container .row &:last-child {
+    // removes third card in tablet (portrait)
+    .section .portfolio__gallery .container .row &:last-child {
         display: none;
       }
   }
@@ -76,6 +83,8 @@
 .article__title {
   margin-bottom: 0px;
   font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 4px;
 
   a {
     text-decoration: underline;
