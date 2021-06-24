@@ -1,6 +1,7 @@
 ---
 layout: page-back
-title:  Combatiendo el discurso del odio con... ¿juegos?
-image:  '/images/no-more-haters.jpg'
+title:  Personal finances made easy
+description: 
+image:  '/images/work/arbor.png'
 ---
-Leverage agile frameworks to provide a robust synopsis for high level 
+Coming soon ♡
