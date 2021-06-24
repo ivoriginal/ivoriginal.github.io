@@ -46,6 +46,7 @@ portfolio:
       title: No More Haters
       description: Games to fight hate speech and fake news
       client: maldita.es
+      client-logo: https://miro.medium.com/max/844/1*v2mrZKEqqY80h0KpUIr-4Q.jpeg
       industry: NGO
       url: /work/no-more-haters
 
@@ -58,42 +59,42 @@ portfolio:
 
     - image: /images/work/arbor.png
       title: Arbor
-      description: White wooden table near brown chair
+      description: Personal finances made easy
       client: Arbor Fintech
       industry: Fintech
       url: /work/arbor
 
     - image: /images/work/ringo.png
       title: Ringo
-      description: White wooden table near brown chair
+      description: Agentless in-person real state tours
       client: 7r Ventures
       industry: Real State
       url: /work/ringo
 
     - image: /images/work/giv.png
       title: GIV.
-      description: A city guide for families
+      description: Each payment, a charitable contribution
       client: Donna Nairi
       industry: Fintech
       url: /work/giv
 
     - image: /images/work/trenlab.png
       title: Trenlab Trivia
-      description: Fun fun fun
+      description: Games to drive engagement
       client: Wayra
       industry: 
-      url: /work/trenlab-trivia
+      url: /work/trenlab
 
     - image: /images/work/domolock.png
       title: Domolock
-      description: White wooden table near brown chair
+      description: Technology to ease your everyday
       client: Domolock
       industry: Social Networking
       url: /work/domolock
 
     - image: /images/work/hocelot.png
       title: Hocelot
-      description: White wooden table near brown chair
+      description: Helping companies decide better
       client: Hocelot
       industry: Fintech
       url: /work/hocelot
@@ -117,7 +118,7 @@ portfolio:
       description: White wooden table near brown chair
       client: RatedPower
       industry: Real State
-      url: /work/pvdesign
+      url: /work/RatedPower
 
 
 #-------------------------------
@@ -163,13 +164,19 @@ projects:
       title: Trash Slayer
       description: A game about slaying possessed trash bags. Coming Soon.
       tags: videogame
-      url: https://www.instagram.com/tv/CCReMKNqkYe/
+      url: https://twitter.com/i/events/1407614424538566656
 
     - image: /images/default.png
       title: Untitled-Song-01.mp3
       description: Yeah, that's the name of the song. For now. Send me your feedback!
       tags: music
       url: https://drive.google.com/file/d/1C6vHUxU4Z6d7wo0m3ODmya4e_iqeNcdc/view?usp=sharing
+
+    - image: /images/default.png
+      title: LevelUp!
+      description: I produced this terrible webseries many, many years ago.
+      tags: video
+      url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
 
 
 #-------------------------------
@@ -179,37 +186,38 @@ now:
   now__subtitle: test
   now__content:
     - image: /images/commit-sans.jpg
-      title: 
+      title: 🧱
       description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
-      url: commit-sans
+      url: https://commitsans.com/
       cta: It's a Commit-ment
 
       # image: /images/gallery-01.jpg
     - image: /images/community-tools.png
-      title: 
+      title: 👷‍♂️
       description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
-      url: community-tools
+      url: https://communitytools.co/
       cta: More like Commu-nice-ty Tools
 
     - image: /images/gallery-01.jpg
-      title: 
+      title: 📝
       description: Teaching the Product Design course at <strong>Fictizia</strong> where we learn how to design and develop digital products.
-      url: fictizia
+      url: https://fictizia.com/formacion/master-ux-ui-diseno-producto-digital
       cta: An apple a day
 
     - image: /images/gallery-01.jpg
-      title: 
+      title: 📚
       description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft and find trusted sources.
-      url: design-resources
+      url: https://www.notion.so/ivosdesignresources/Base-de-conocimiento-84f716996d8c4d1ba5bbf890b5d9527f
       cta: Open source that sh*t
 
     - image: /images/gallery-01.jpg
-      title: 
+      title: 🎸🎤🎻
       description: Writing and recording a death metal album with symphonic elements and weird shit.
+      url: https://www.instagram.com/stories/highlights/17861653984282824/
       cta: Does it djent?
 
     - image: /images/gallery-01.jpg
-      title: 
+      title: 🎮
       description: Developing a game called <strong>Trash Slayer</strong>. Learning to use Unity is a real pain in the ass.
       cta: Player 1 Press Start
 
