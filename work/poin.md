@@ -1,6 +1,9 @@
 ---
 layout: page-back
-title:  Combatiendo el discurso del odio con... ¿juegos?
-image:  '/images/no-more-haters.jpg'
+title:  Making cities more friendly to families
+description: <strong>POiN Places</strong> is a tool that helps families planning their time together through collaborative reviews
+client: POiN
+tags: [UX research, UI design, Development]
+image:  '/images/work/poin.png'
 ---
-Leverage agile frameworks to provide a robust synopsis for high level 
+Coming soon ♡
