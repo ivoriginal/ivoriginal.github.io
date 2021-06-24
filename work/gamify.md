@@ -1,6 +1,6 @@
 ---
 layout: page-back
-title:  Share your experiences
-image:  '/images/no-more-haters.jpg'
+title:  Turn your life into an epic experience
+image:  '/images/work/gamify.png'
 ---
-Leverage agile frameworks to provide a robust synopsis for high level 
+Coming soon ♡
