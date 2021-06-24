@@ -24,9 +24,9 @@
     margin-bottom: 16px;
 
     // removes last card's margin bottom
-    .portfolio__gallery .container .row &:last-child {
-      margin-bottom: 0;
-    }
+    // .portfolio__gallery .container .row &:last-child {
+    //   margin-bottom: 0;
+    // }
 
   }
 
@@ -132,9 +132,13 @@
 
 // 
 .now {
+
+  .article__inner {
+    text-align: center;
+  }
   
   .article__title {
-    margin-bottom: 0px;
+    // margin-bottom: 0px;
   }
 
   .article__image {
@@ -145,6 +149,7 @@
   // 
   .article__excerpt {
     font-size: $base-font-size;
+    color: #202020;
   }
 
 }
