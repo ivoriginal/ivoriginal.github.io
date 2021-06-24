@@ -4,17 +4,22 @@ layout: default-back
 
 <div class="container margin-top">
   <div class="row page">
-    <div class="col col-12">
+    <div class="col-12">
       <div class="page__info">
         <h1 class="page__title">{{ page.title | escape }}</h1>
         <p class="page__description">{{ page.description }}</p>
-        {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            <!-- <span style="margin-right: 8px;">I did</span> -->
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
-            {% endfor %}
-          </div>
+        <!-- {% if page.tags.size >= 1 %}
+        <div class="post__tags">
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %} -->
+        {% if page.client %}
+        <div class="page__client">
+          <!-- <span>Client</span> -->
+          <img src="{{ page.client-logo }}">
+        </div>
         {% endif %}
       </div>
     </div>
@@ -37,7 +42,26 @@ layout: default-back
     </div>
   </article>
 
+  <!-- <hr> -->
+
 </div>
+
 <!-- end page -->
+
+<!-- Related posts (WIP) -->
+<!-- <div class="container margin-top margin-bottom">
+  <div class="row page">
+    <div class="col-12">
+      <h3>Keep reading</h3>
+      <div class="flex">
+        {% for card in site.data.settings.portfolio.portfolio__gallery limit:2 %}
+          {% if card.url != page.url %} 
+            {% include card.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div> -->
 
 <hr>
