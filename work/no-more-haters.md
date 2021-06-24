@@ -1,7 +1,9 @@
 ---
 layout: page-back
 title:  Fighting hate speech with... games?
-description: The <strong>Community Directory</strong> is a tool to help members from the Google for Startups communities to find their people
+description: <strong>No More Haters</strong> is a collection of games to help young people detect and fight hate speech
+client: maldita.es
+client-logo: https://miro.medium.com/max/844/1*v2mrZKEqqY80h0KpUIr-4Q.jpeg
 tags: [UX research, UI design, Development]
 image:  '/images/work/no-more-haters.png'
 ---
