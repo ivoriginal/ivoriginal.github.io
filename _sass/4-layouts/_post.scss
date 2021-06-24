@@ -25,13 +25,27 @@
   }
 
   .button {
-    border: none;
     text-decoration: none;
   }
 }
 
-.page__info {
+// 
+.back-home {
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+  a {
+    border-bottom: 1px solid black;
+    font-family: $base-font-family;
+  }
+}
+
+.text-center {
   text-align: center;
+}
+
+.page__info {
   padding-top: 40px;
 }
 
@@ -51,7 +65,7 @@
 
 .post__tags {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 16px 0;
@@ -76,8 +90,8 @@
 }
 
 .page__description {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  // line-height: 1.6rem;
 
   @media only screen and (max-width: $mobile) {
     font-size: 1.4rem;
@@ -85,11 +99,22 @@
   }
 }
 
+.page__client {
+  // font-size: 1.2rem;
+  // align-items: center;
+  margin-top: $base-spacing-unit;
+  
+  img {
+    width: 200px;
+  }
+
+}
+
 .post__title,
 .page__title {
   font-size: 62px;
   line-height: 1.2;
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
 
   @media only screen and (max-width: 1140px) {
     font-size: 64px;
@@ -235,27 +260,46 @@
   }
 
   .error__text {
+    font-size: $base-font-size * 1.250 * 1.250;
     margin-bottom: 48px;
     color: var(--text-alt-color);
+    padding: 0px 16%;
   }
   
   @media only screen and (max-width: $mobile) {
-    .error__title {
-      font-size: 68px;
-    }
 
     .error__title {
-      font-size: 80px;
+      font-size: $base-font-size * 3;
     }
+
     .error__text {
       margin-bottom: 24px;
+      font-size: $base-font-size * 1.250;
+      padding: 0;
     }
   }
+
+  @media only screen and (min-width: $mobile) and (max-width: $desktop - 1) {
+
+    .error__title {
+      font-size: 3.4rem;
+    }
+
+    .error__text {
+      padding: 0;
+    }
+
+  }
+
+  @media only screen and (min-width: $tablet) {
+    margin-top: 64px;
+  }
+
 }
 
 // 
 .serif, .serif h1 {
-  font-family: 'PT Serif';
+  font-family: 'PT Serif', 'Times New Roman', serif;
 }
 
 .page h4 {
