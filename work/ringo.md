@@ -1,6 +1,6 @@
 ---
 layout: page-back
-title:  Combatiendo el discurso del odio con... ¿juegos?
-image:  '/images/no-more-haters.jpg'
+title:  Finding your new home without all the hassle
+image:  '/images/work/ringo.png'
 ---
-Leverage agile frameworks to provide a robust synopsis for high level 
+Coming soon ♡
