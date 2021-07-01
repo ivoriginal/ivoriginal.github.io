@@ -35,6 +35,14 @@ portfolio:
   portfolio__title: Work
   portfolio__subtitle: Cool stuff people pay me to do, talks and workshops, personal projects
   portfolio__gallery:
+
+    - image: /images/work/gfs-directory-old.png
+      title: Community Directory 2.0
+      description: A digital roster to help people connect
+      client: Google for Startups
+      industry: Community Management
+      url: /work/gfs-directory-2
+
     - image: /images/work/gfs-directory.png
       title: Community Directory
       description: A digital roster to help people connect
