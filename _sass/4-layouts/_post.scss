@@ -47,6 +47,11 @@
 
 .page__info {
   padding-top: 40px;
+
+  @media only screen and (max-width: $desktop) {
+    padding-top: 24px;
+  }
+
 }
 
 .post__info {
@@ -87,6 +92,44 @@
       margin-right: 0;
     }
   }
+
+  @media only screen and (max-width: $tablet) {
+    white-space: nowrap;
+    overflow: auto;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+  }
+
+}
+
+// 
+.page__client-tags {
+  align-items: start;
+  flex-direction: column;
+
+  // 
+  @media only screen and (min-width: $tablet) {
+    align-items: center;
+    margin-top: 0;
+    flex-direction: row;
+  }
+
+  // 
+  .page__client  {
+    display: ruby;
+  
+    @media only screen and (max-width: $tablet) {
+      margin: $base-spacing-unit 0;
+
+      span {
+        display: none;
+      }
+    }
+
+  }
+
 }
 
 .page__description {
@@ -96,13 +139,15 @@
   @media only screen and (max-width: $mobile) {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    margin-bottom: 8px !important;
   }
 }
 
 .page__client {
   // font-size: 1.2rem;
   // align-items: center;
-  margin-top: $base-spacing-unit;
+  // margin-top: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
   
   img {
     width: 200px;
@@ -151,6 +196,11 @@
 
 .page-image {
   margin-top: 40px;
+
+  @media only screen and (max-width: $desktop) {
+    margin-top: $base-spacing-unit;
+  }
+
 }
 
 .post-image,
