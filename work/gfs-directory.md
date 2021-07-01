@@ -4,8 +4,8 @@ title:  Helping people connect, from Tokyo to Madrid
 description: The <strong>Community Directory</strong> is a tool to help members from the Google for Startups communities finding their people
 client: Google for Startups
 client-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Google_for_Startups_logo.svg/1280px-Google_for_Startups_logo.svg.png
-tags: [UX research, UI design, Development]
-image:  '/images/work/gfs-directory.png'
+tags: [UX research, UI design, Front-end Development]
+image:  '/images/work/gfs-directory-old.png'
 ---
 <!-- > In the future, robots will do all the work, so the only reasonable profession to pursue is to build and repair robots (until they repair themselves!)
 –<i>Young Ivo, 1998</i> -->
@@ -125,6 +125,32 @@ The team was absolutely on board with that idea, so they allocated some budget f
 During the last bits of the pre-pandemic world we conducted that research and worked in several improvements for the Directory. We started <a href="https://communitytools.co/">Community Tools</a> with the goal to offer this product to more communities outside Google for Startups, and to develop new open source solutions.
 
 2020 was a tough year for all. Our plans for the directory inside and outside Google had to be put on hold, but you'll soon hear about the new stuff we've been building. If you want to know more about our global research and our design process, <a href="https://twitter.com/ivoriginal">follow me on Twitter</a>. I'm already working on those posts and hope to publish them soon!
+
+<br>
+<hr>
+<br>
+
+<!-- Next up -->
+<div>
+<h3 style="margin-bottom: 16px;">Next up</h3>
+  <div class="row">
+    <div class="col col-12">
+      <a href="">
+      <section class="article-card outline">
+        <div class="article-card__head col-8 col-m-12 col-d-8">
+          <h3 class="banner__title">Community Directory 2.0</h3>
+          <p class="banner__subtitle">Building a new product for a global community.</p>
+          <a href="gfs-directory-2.md" class="mt-1 inline-block" name="subscribe">Read more</a>
+        </div>
+        <div class="col-4 col-t-4 col-m-12 col-d-2">
+          <img src="/images/work/gfs-directory.png" />
+        </div>
+      </section>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /Next up -->
 
 <!-- <div class="container">
   <div class="row">
