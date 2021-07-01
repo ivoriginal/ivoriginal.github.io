@@ -2,25 +2,29 @@
 layout: default-back
 ---
 
-<div class="container margin-top">
+<div class="container margin-top pr-xs-0">
   <div class="row page">
     <div class="col-12">
       <div class="page__info">
-        <h1 class="page__title">{{ page.title | escape }}</h1>
-        <p class="page__description">{{ page.description }}</p>
-        <!-- {% if page.tags.size >= 1 %}
-        <div class="post__tags">
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
-          {% endfor %}
+        <h1 class="page__title pr-xs-1">{{ page.title | escape }}</h1>
+        <p class="page__description pr-xs-1">{{ page.description }}</p>
+        <div class="flex page__client-tags">
+          {% if page.client %}
+          <div class="page__client">
+            <!-- <span>Client</span> -->
+            <img src="{{ page.client-logo }}">
+            <span style="color: var(--medium-gray)">|</span>
+          </div>
+          {% endif %}
+          {% if page.tags.size >= 1 %}
+          <div class="post__tags">
+            {% for tag in page.tags %}
+              <!-- <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a> -->
+              <a class="post__tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
-        {% endif %} -->
-        {% if page.client %}
-        <div class="page__client">
-          <!-- <span>Client</span> -->
-          <img src="{{ page.client-logo }}">
-        </div>
-        {% endif %}
       </div>
     </div>
   </div>
