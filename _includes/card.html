@@ -20,7 +20,9 @@
           <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
 
           {% if card.client %}
-          <p class="article__excerpt" style="margin-top: 12px;"><strong>Client:</strong> {{ card.client }}{% else %}{{ card.content | strip_html | truncate: 80 }}</p>
+          <p class="article__excerpt" style="margin-top: 12px;">
+            <strong>Client:</strong> {{ card.client }}
+          </p>
           {% endif %}
 
           {% if card.tags %}
