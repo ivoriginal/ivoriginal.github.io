@@ -1,0 +1,24 @@
+<!-- Portfolio -->
+<section id="portfolio" class="hero-2 background-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col col-10 col-d-12">
+          <div class="hero__inner">
+              <h1 class="hero__title">{{ site.data.settings.portfolio.portfolio__title }}</h1>
+              <p class="hero__description">{{ page.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio__gallery animate">
+      <div class="container">
+        <div class="row">
+          {% for card in site.data.settings.portfolio.portfolio__gallery %}
+            {% include card.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% include banner.html %}
+  </section>
+  <!-- /Portfolio -->
