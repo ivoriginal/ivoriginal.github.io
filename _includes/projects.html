@@ -1,0 +1,22 @@
+<section id="projects" class="hero-3 background-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col col-10 col-d-12">
+        <div class="hero__inner">
+            <h1 class="hero__title">{{ site.data.settings.projects.projects__title }}</h1>
+            <p class="hero__description">{{ site.data.settings.projects.projects__subtitle }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio__gallery animate">
+    <div class="container">
+      <div class="row">
+        {% for card in site.data.settings.projects.project__list %}
+          {% include card.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
