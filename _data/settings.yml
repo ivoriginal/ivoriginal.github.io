@@ -30,20 +30,67 @@ hero:
 
 
 #-------------------------------
-# Portfolio Settings
+# Upcoming talk
+upcoming__talk: 
+  - image: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F137099023%2F314386638610%2F1%2Foriginal.20210531-075555?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1024%2C512&s=c8acced3645dad663ec42af60b385a21
+    title: "Tetuan Valley Startup School: Product development & UX"
+    description: We will talk about the most optimal way to develop and design your product in order to make it more attractive and construct it in a correct way.
+    cta: Get your ticket
+    url: https://www.eventbrite.es/e/tetuan-valley-startup-school-product-development-ux-tickets-157033584679
+
+
+#-------------------------------
+# Now
+now:
+  now__title: Now
+  now__subtitle: test
+  now__content:
+    - # image: /images/commit-sans.jpg
+      # title: 🧱
+      description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
+      url: https://commitsans.com/
+      cta: It's a Commit-ment
+
+    - # image: /images/work/gfs-directory/campus-london.jpg
+      # title: 👷‍♂️
+      description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
+      url: https://communitytools.co/
+      cta: More like Commu-nice-ty Tools
+
+    - 
+      # title: 📚
+      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft.
+      url: https://www.notion.so/ivosdesignresources/Base-de-conocimiento-84f716996d8c4d1ba5bbf890b5d9527f
+      cta: Open source that sh*t
+
+    -
+      # title: 🎸🎤🎻
+      description: Writing and recording a death metal album with symphonic elements and weird shit.
+      url: https://www.instagram.com/stories/highlights/17861653984282824/
+      cta: Does it djent?
+
+    -
+      # title: 🎮
+      description: Developing a game called <strong>Trash Slayer</strong>. Learning to use Unity is a real pain in the ass.
+      url: https://twitter.com/i/events/1407614424538566656
+      cta: Player 1 Press Start
+
+
+#-------------------------------
+# Portfolio
 portfolio:
-  portfolio__title: Work
-  portfolio__subtitle: Cool stuff people pay me to do, talks and workshops, personal projects
+  portfolio__title: Portfolio
+  portfolio__subtitle: cool stuff people pay me to do, talks and workshops, personal projects
   portfolio__gallery:
 
-    - image: /images/work/gfs-directory-old.png
-      title: Community Directory 2.0
-      description: A digital roster to help people connect
+    - image: /images/work/gfs-directory-2.jpg
+      title: Global Directory
+      description: A modular design & dev architecture
       client: Google for Startups
       industry: Community Management
       url: /work/gfs-directory-2
 
-    - image: /images/work/gfs-directory.png
+    - image: /images/work/gfs-directory-old.png
       title: Community Directory
       description: A digital roster to help people connect
       client: Google for Startups
@@ -56,7 +103,7 @@ portfolio:
       client: maldita.es
       client-logo: https://miro.medium.com/max/844/1*v2mrZKEqqY80h0KpUIr-4Q.jpeg
       industry: NGO
-      url: /work/no-more-haters
+      url: https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8
 
     - image: /images/work/poin.png
       title: POiN Places
@@ -88,17 +135,17 @@ portfolio:
 
     - image: /images/work/trenlab.png
       title: Trenlab Trivia
-      description: Games to drive engagement
-      client: Wayra
-      industry: 
-      url: /work/trenlab
+      description: Learn about the startup ecosystem
+      client: Trenlab / Wayra
+      industry: Entertainment
+      url: https://medium.com/products-for-the-people/battle-appgainst-time-8b035b0117d
 
-    - image: /images/work/domolock.png
-      title: Domolock
-      description: Technology to ease your everyday
-      client: Domolock
-      industry: Social Networking
-      url: /work/domolock
+    # - image: /images/work/domolock.png
+    #   title: Domolock
+    #   description: Technology to ease your everyday
+    #   client: New Net Way
+    #   industry: 
+    #   url: /work/domolock
 
     - image: /images/work/hocelot.png
       title: Hocelot
@@ -109,64 +156,90 @@ portfolio:
 
     - image: /images/work/gamify.png
       title: Gamify
-      description: White wooden table near brown chair
-      client: Gamify
+      description: A new challenge everyday
+      client: 
       industry: Social Networking
       url: /work/gamify
 
     - image: /images/work/cango.png
-      title: Cango
-      description: White wooden table near brown chair
-      client: 7r Ventures
-      industry: Real State
+      title: Cangopal
+      description: Inventory & shipping made easy
+      client: Cango
+      industry: Logistics
       url: /work/cango
 
     - image: /images/work/pvdesign.png
       title: pvDesign
-      description: White wooden table near brown chair
+      description: The end-to-end software to design and engineer photovoltaic plants
       client: RatedPower
-      industry: Real State
+      industry: Energy
       url: /work/RatedPower
 
 
 #-------------------------------
-# Charlas
-charlas:
-  charlas__title: Talks
-  charlas__subtitle: I talk about design in exchange for money and/or food
-  charlas__list:
+# Education
+education:
+  education__title: Teaching
+  education__subtitle: Learn, build, teach, repeat
+
+  education__list__long:
+
+    - image: /images/work/education/fictizia-clase.png
+      title: Master in user experience (UX) and graphical user interface design (UI)
+      description: 150 hours of design education where we learn to build digital products. Starting october 2021.
+      client: Fictizia
+      industry: Education
+      cta: Learn more
+      url: https://fictizia.com/formacion/master-ux-ui-diseno-producto-digital?gclid=CjwKCAjwq_D7BRADEiwAVMDdHovU2CKjo5bSOfp4a69_KRKWLagi6fFodviRbxbuvnRh1v08F7k-aBoCh9oQAvD_BwE
+
+  education__list__short:
+
     - image: /images/work/pde.png
       title: Design for non-designers
       description: From needfinding to user testing (60 minutes)
-      cta: Book now
-      cta-2: More info
-      url: 
+      # cta: Book now
+      # cta-2: More info
+      url: https://docs.google.com/presentation/d/1De4haOm8IfKY1whC4tvY7X3ihG2gwieyYyZpThYKHEA/edit?usp=sharing
 
     - image: /images/work/prototyping.png
       title: Prototyping 101
       description: From low fidelity wireframes to Wizard of Oz (60 minutes)
-      cta: Book now
-      cta-2: More info
-      url: 
+      # cta: Book now
+      # cta-2: More info
+      url: https://docs.google.com/presentation/d/17TLQhTFh3c3QPHOI0_wgFsP1CgkY19hNNa3McIBnH34/edit?usp=sharing
 
-    - image: /images/work/material-design.png
+    - image: /images/work/education/material-design.png
       title: Intro to Material Design
       description: History and practice of Google's Design Language (12 hours)
-      cta: Book now
-      cta-2: More info
-      url: 
+      # cta: Book now
+      # cta-2: More info
+      url: https://www.figma.com/file/WpYobcp0ooqlbrOckY0uWn/CM_Curso-Material?node-id=14%3A113
 
 
 #-------------------------------
 # Projects
 projects:
+  projects__title: Projects
+  projects__subtitle: Cool stuff I'm not (usually) paid for
   project__list:
 
-    - image: /images/sacred-video.png
-      title: Old Hag's Mask
-      description: I shooted and edited this video for Sacred Wolves and had a lot of fun.
-      tags: video
-      url: https://www.youtube.com/watch?v=zegNRk_BLoo
+    - image: https://secure.meetupstatic.com/photos/event/3/d/0/a/600_490755626.jpeg
+      title: Open Source Weekends
+      description: A meet up for OSS lovers. I helped with communication and multimedia.
+      tags: community
+      url: https://osweekends.com/
+
+    - image: https://miro.medium.com/max/3750/1*H_LtvjLiddMKwrECYAhZCQ.jpeg
+      title: Collisions Projects
+      description: We organise design critiques, tech mentoring and business education.
+      tags: community
+      url: https://collisionsprojects.com/#/
+
+    - image: /images/free-the-fish.png
+      title: Free the Fish
+      description: A browser extension that helps you detecting and avoiding clickbait.
+      tags: [activism]
+      url: https://chrome.google.com/webstore/detail/free-the-fish/eoffambhmkmcinfjglkhffflpaglbjln
 
     - image: /images/trash-slayer.png
       title: Trash Slayer
@@ -174,60 +247,59 @@ projects:
       tags: videogame
       url: https://twitter.com/i/events/1407614424538566656
 
+    # - image: /images/fachometro.png
+    #   title: El Fachómetro
+    #   description: Educative game about Spanish History (coming soon)
+    #   tags: videogame
+    #   url: 
+
+    - image: /images/sacred-video.png
+      title: Old Hag's Mask
+      description: I shooted and edited this video for Sacred Wolves, a Stoner Rock band from Madrid.
+      tags: video
+      url: https://www.youtube.com/watch?v=zegNRk_BLoo
+
+    - image: /images/levelup.jpeg
+      title: LevelUp!
+      description: I produced this terrible webseries many, many years ago.
+      tags: video
+      url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
+
     - image: /images/default.png
       title: Untitled-Song-01.mp3
       description: Yeah, that's the name of the song. For now. Send me your feedback!
       tags: music
       url: https://drive.google.com/file/d/1C6vHUxU4Z6d7wo0m3ODmya4e_iqeNcdc/view?usp=sharing
 
-    - image: /images/default.png
-      title: LevelUp!
-      description: I produced this terrible webseries many, many years ago.
-      tags: video
-      url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
-
 
 #-------------------------------
-# Now Settings
-now:
-  now__title: Now
-  now__subtitle: test
-  now__content:
-    - image: /images/commit-sans.jpg
-      title: 🧱
-      description: Founding a studio called <strong>Commit Sans</strong> where we design and develop software. 0% bullshit 100% product.
-      url: https://commitsans.com/
-      cta: It's a Commit-ment
+# Communities
+communities:
+  communities__list:
 
-      # image: /images/gallery-01.jpg
-    - image: /images/community-tools.png
-      title: 👷‍♂️
-      description: Building <strong>Community Tools</strong> to help people connect in communities in Madrid, Tel Aviv and Seoul.
-      url: https://communitytools.co/
-      cta: More like Commu-nice-ty Tools
+    - image: 
+      title: Google for Startups
+      description: 
+      tags: 
+      url: https://campus.co/
 
-    - image: /images/gallery-01.jpg
-      title: 📝
-      description: Teaching the Product Design course at <strong>Fictizia</strong> where we learn how to design and develop digital products.
-      url: https://fictizia.com/formacion/master-ux-ui-diseno-producto-digital
-      cta: An apple a day
+    - image: 
+      title: Collisions Projects
+      description: 
+      tags: 
+      url: https://collisionsprojects.com/#/
 
-    - image: /images/gallery-01.jpg
-      title: 📚
-      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft and find trusted sources.
-      url: https://www.notion.so/ivosdesignresources/Base-de-conocimiento-84f716996d8c4d1ba5bbf890b5d9527f
-      cta: Open source that sh*t
+    - image: 
+      title: Open Source Weekends
+      description: 
+      tags: 
+      url: https://osweekends.com/
 
-    - image: /images/gallery-01.jpg
-      title: 🎸🎤🎻
-      description: Writing and recording a death metal album with symphonic elements and weird shit.
-      url: https://www.instagram.com/stories/highlights/17861653984282824/
-      cta: Does it djent?
-
-    - image: /images/gallery-01.jpg
-      title: 🎮
-      description: Developing a game called <strong>Trash Slayer</strong>. Learning to use Unity is a real pain in the ass.
-      cta: Player 1 Press Start
+    - image: 
+      title: Factory Designers Circle
+      description: 
+      tags: 
+      url: https://factoryberlin.zendesk.com/hc/en-us/articles/360022404631-Designers-Circle
 
 
 #-------------------------------
