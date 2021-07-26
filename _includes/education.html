@@ -1,0 +1,39 @@
+<section id="education" class="hero-3 background-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col col-10 col-d-12">
+          <div class="hero__inner">
+              <h1 class="hero__title">{{ site.data.settings.education.education__title }}</h1>
+              <p class="hero__description">{{ site.data.settings.education.education__subtitle }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio__gallery animate">
+      <div class="container">
+        <!-- <div class="section__head">
+          <h4>Long format</h4>
+        </div> -->
+        <div class="row">
+          {% for card in site.data.settings.education.education__list__long %}
+            {% include banner-2.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  
+    <div class="portfolio__gallery animate">
+      <div class="container">
+        <div class="section__head">
+          <h3>Talks</h3>
+        </div>
+        <div class="row">
+          {% for card in site.data.settings.education.education__list__short %}
+            {% include card.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% include section-talks-2.html %}
+  </section>
