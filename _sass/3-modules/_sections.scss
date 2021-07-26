@@ -94,7 +94,6 @@
   }
 }
 
-.section__title,
 .section__link {
   background: var(--background-color);
 }
@@ -102,6 +101,15 @@
 // 
 .portfolio .section__head, .blog .section__head {
   margin-top: 40px;
+}
+
+#education {
+  .section__head {
+    margin-top: 0;
+  }
+  .banner-talks hr {
+    display: none;
+  }
 }
 
 .blog__title {
