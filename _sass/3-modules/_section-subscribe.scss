@@ -118,13 +118,26 @@
 }
 
 // Banner
-.banner {
+.banner, .banner-2 {
   display: flex;
   background-color: var(--light-gray);
   margin-bottom: 32px;
   border-radius: 8px;
   padding: 16px 24px;
   background-color: white;
+
+  .button {
+    text-align: center;
+    align-self: center;
+  
+    @media (min-width: $desktop) {
+      width: 300px;
+    }
+  
+    @media (max-width: $desktop) {
+      margin-top: 24px;
+    }
+  }
 
   @media only screen and (min-width: $tablet) and (max-width: $desktop) {
     padding: 16px 80px;
@@ -141,6 +154,30 @@
   }
 }
 
+.banner-2 {
+
+  padding: 24px;
+
+  .button {
+    align-self: auto;
+    margin-top: 16px
+  }
+
+  .banner__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .banner__head {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+
+}
+
 .banner__head {
   width: 100%;
   display: flex;
@@ -150,7 +187,6 @@
   @media (min-width: $desktop) {
     margin-left: 8px;
   }
-
 }
 
 .banner__title {
@@ -162,20 +198,6 @@
 
 .banner__subtitle {
   font-size: 1.4rem;
-}
-
-.banner .button {
-  text-align: center;
-  align-self: center;
-
-  @media (min-width: $desktop) {
-    width: 300px;
-  }
-
-  @media (max-width: $desktop) {
-    margin-top: 24px;
-  }
-
 }
 
 .article-card {
@@ -216,7 +238,6 @@
     @media (max-width: $mobile) {
       border-radius: 8px 8px 0 0 !important;
     }
-
   }
 
 }
