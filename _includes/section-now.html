@@ -17,14 +17,14 @@
       </div>
     </div>
 
-    <div class="portfolio__gallery">
+    <div class="portfolio__gallery now">
       <div class="container">
         <div class="row">
           {% for news in site.data.settings.now.now__content limit:3 %}
             {% include article-now.html %}
           {% endfor %}
         </div>
-        <hr style="margin-top: 56px;">
+        <hr style="margin-top: 24px;">
       </div>
     </div>
 
