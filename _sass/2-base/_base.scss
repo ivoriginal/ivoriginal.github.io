@@ -7,10 +7,10 @@ body {
   font-size: $base-font-size * 1.250;
   line-height: $base-line-height;
   color: var(--text-color);
-  background-color: var(--background-color);
+  // background-color: var(--background-color);
+  background-color: var(--light-gray);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: var(--light-gray);
 
   // @media only screen and (min-width: $desktop) {
   //   font-size: $base-font-size;
@@ -226,6 +226,14 @@ table td {
     background-color: transparent;
   }
 
+  &--text {
+      background-color: transparent;
+      border-radius: 0;
+      border-bottom: 1px solid black;
+      width: auto !important;
+      padding: 0;
+    }
+
 }
 
 // 
@@ -267,10 +275,18 @@ table td {
   margin-bottom: 56px;
 }
 
+.padding-bottom {
+  padding-bottom: 56px;
+}
+
 body {
   @media only screen and (max-width: $tablet) {
     padding-bottom: 56px;
   }
+}
+
+.background-white {
+  background-color: white;
 }
 
 .background-gray {
@@ -317,16 +333,43 @@ p {
 iframe {
 
   margin-bottom: 24px;
+  height: 48vw;
 
-  @media only screen and (max-width: $tablet) {
-    height: 297px;
+  @media only screen and (min-width: 576px) and (max-width: $tablet - 1) {
+    height: 43vw;
   }
-  @media only screen and (min-width: $desktop) {
-    min-height: 398px;
+  
+  @media only screen and (max-width: $tablet - 1) {
+    height: 52vw;
   }
+
+  @media only screen and (width: $tablet) {
+    height: 38vw;
+  }
+
+  @media only screen and (min-width: $tablet + 1) and (max-width: $desktop - 1) {
+    height: 47vw;
+    // height: 51vw;
+  }
+
+  @media only screen and (min-width: $desktop) and (max-width: $desktop + 3) {
+    // height: 56vw;
+    height: 38vw;
+  }
+
+  @media only screen and (min-width: $desktop + 3) and (max-width: 1140px) {
+    // height: 56vw;
+    height: 53vw;
+  }
+
+}
+
+.about iframe {
+  height: 300px;
 }
 
 // HELPERS
+
 // Display
 .flex {
   display: flex;
@@ -336,6 +379,16 @@ iframe {
   display: inline-block;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.hidden-md-and-down {
+  @media only screen and (max-width: $desktop - 1) {
+    display: none;
+  }
+}
+
 // Padding & Margin
 .mt-1 {
   margin-top: $base-spacing-unit;
@@ -343,6 +396,54 @@ iframe {
 
 .mt-2 {
   margin-top: $base-spacing-unit * 2;
+}
+
+.mr-md-1 {
+  @media only screen and (min-width: $tablet) {
+    margin-right: 8px;
+  }
+}
+
+.mr-lg-1 {
+  @media only screen and (min-width: $desktop) {
+    margin-right: 8px;
+  }
+}
+
+.mr-lg-2 {
+  @media only screen and (min-width: $desktop) {
+    margin-right: 16px;
+  }
+}
+
+.mr-lg-3 {
+  @media only screen and (min-width: $desktop) {
+    margin-right: 24px;
+  }
+}
+
+.mb-xs-1 {
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 16px;
+  }
+}
+
+.mb-xs-2 {
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 24px;
+  }
+}
+
+.mb-md-1 {
+  @media only screen and (max-width: $desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.mb-lg-1 {
+  @media only screen and (min-width: $desktop) {
+    margin-bottom: 16px;
+  }
 }
 
 .pt-1 {
@@ -362,5 +463,17 @@ iframe {
 .pr-xs-1 {
   @media only screen and (max-width: $mobile) {
     padding-right: $base-spacing-unit;
+  }
+}
+
+.pb-lg-2 {
+  @media only screen and (min-width: $desktop) {
+    padding-right: 16px;
+  }
+}
+
+.pb-lg-3 {
+  @media only screen and (min-width: $mobile + 1) {
+    padding-bottom: 24px;
   }
 }
