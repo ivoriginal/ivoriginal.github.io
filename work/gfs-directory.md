@@ -109,7 +109,7 @@ That initial pilot in Madrid had great engagement metrics, so the Google for Sta
 
 Always keeping in mind the "unknowns unknowns", we concluded that we'd need to visit all Campuses to do some on-site research before releasing a product within communities that (almost certainly) had different ways of connecting and communicating. 
 
-The team was absolutely on board with that idea, so they allocated some budget for this "second phase" and we packed up and spent some days in London, Tel Aviv and São Paulo.
+The team was absolutely on board with that idea, so they allocated some budget for this "second phase" and we packed up and spent some days in London, Tel Aviv and São Paulo, but that deserves <a href="gfs-directory-2">its own post</a>.
 
 <div class="gallery-box">
   <div class="gallery">
@@ -132,18 +132,18 @@ During the last bits of the pre-pandemic world we conducted that research and wo
 
 <!-- Next up -->
 <div>
-<h3 style="margin-bottom: 16px;">Next up</h3>
+  <h3 style="margin-bottom: 16px;">Next up</h3>
   <div class="row">
     <div class="col col-12">
-      <a href="">
+      <a href="gfs-directory-2">
       <section class="article-card outline">
         <div class="article-card__head col-8 col-m-12 col-d-8">
-          <h3 class="banner__title">Community Directory 2.0</h3>
-          <p class="banner__subtitle">Building a new product for a global community.</p>
-          <a href="gfs-directory-2.md" class="mt-1 inline-block" name="subscribe">Read more</a>
+          <h3 class="banner__title">Global Directory</h3>
+          <p class="banner__subtitle">A new and modular design & dev architechture for an international tool.</p>
+          <a href="gfs-directory-2" class="mt-1 inline-block" name="subscribe">Read more</a>
         </div>
         <div class="col-4 col-t-4 col-m-12 col-d-2">
-          <img src="/images/work/gfs-directory.png" />
+          <img src="/images/work/gfs-directory-2B.png" />
         </div>
       </section>
       </a>
