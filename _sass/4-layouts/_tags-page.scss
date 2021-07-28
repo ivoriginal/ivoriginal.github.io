@@ -1,14 +1,15 @@
 /* Tags */
 .tag {
-  background: #e2e298;
+  // background: #e2e298;
+  background: var(--medium-gray);
   padding: 4px 8px;
   margin-bottom: 8px;
-  border-radius: 4px;
+  border-radius: 16px;
   width: min-content;
 }
 
 .tag-link {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .tag__head {
