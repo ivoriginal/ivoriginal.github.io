@@ -28,14 +28,14 @@
     </div>
   </div>
 
-  <div class="portfolio__gallery animate" style="margin-bottom: 56px;">
+  <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
         {% for card in site.data.settings.projects.project__list limit:3 %}
           {% include card.html %}
         {% endfor %}
       </div>
-      <!-- <hr style="margin-top: 56px;"> -->
+      <hr style="margin-top: 56px;">
     </div>
   </div>
 
