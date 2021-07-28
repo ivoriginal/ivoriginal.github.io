@@ -16,8 +16,8 @@ menu__settings:
       url: '/now/'
     - title: 'Work'
       url: '/work/'
-    # - title: 'Blog'
-    #   url: '/blog/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'About'
       url: '/about/'
 
@@ -26,7 +26,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hey! I'm Ivo, a freelance Product Designer, teacher, musician and hand model*
-  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="" onclick="myFunction()">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
+  hero__description: In this digital space you can see what I'm doing <a href="/now">right now</a>, check out <a href="/work">my work</a>, read <a href="/blog">my random reflections</a> and know a little bit more <a href="/about">about me</a>.
 
 
 #-------------------------------
@@ -59,7 +59,7 @@ now:
 
     - 
       # title: 📚
-      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft.
+      description: Designing an <strong>open source design knowledge base</strong> to help newcomers learn the craft (for free)
       url: https://www.notion.so/ivosdesignresources/Base-de-conocimiento-84f716996d8c4d1ba5bbf890b5d9527f
       cta: Open source that sh*t
 
