@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Just an average designer with exquisite musical taste
-description: Check out <a href="https://bandcamp.com/ivoriginal">my bandcamp</a> and then come back to read this attempted micro-autobiography.
+# description: Check out <a href="https://bandcamp.com/ivoriginal">my bandcamp</a> and then come back to read this attempted micro-autobiography.
 permalink: /about/
 image: /images/about/01.jpg
 ---
