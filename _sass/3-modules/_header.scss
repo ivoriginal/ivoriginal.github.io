@@ -16,7 +16,6 @@
 
 }
 
-
 .header, .header-blog {
   background-color: white;
   border-bottom: 1px solid #e0e0e0;
@@ -43,10 +42,26 @@
   }
 }
 
+// BLOG
+// 
 .header-blog, .hero-blog {
   border-bottom: 1px solid #afc680;
   background-color: #c5e38a;
 }
+
+// 
+.header-blog {
+
+  // .button {
+  //   padding: 8px 16px;
+  // }
+
+  // 
+  .button--text {
+    border: none;
+  }
+}
+// /BLOG
 
 /* Logo */
 .logo {
