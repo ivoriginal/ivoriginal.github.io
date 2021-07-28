@@ -383,9 +383,26 @@ iframe {
   flex-direction: column;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
 .hidden-md-and-down {
   @media only screen and (max-width: $desktop - 1) {
     display: none;
+  }
+}
+
+.md-and-below {
+
+  display: none;
+
+  @media only screen and (max-width: $desktop) {
+    display: flex;
   }
 }
 
@@ -396,6 +413,22 @@ iframe {
 
 .mt-2 {
   margin-top: $base-spacing-unit * 2;
+}
+
+.mb-1 {
+  margin-bottom: $base-spacing-unit / 2;
+}
+
+.mb-2 {
+  margin-bottom: $base-spacing-unit;
+}
+
+.mb-3 {
+  margin-bottom: $base-spacing-unit * 2;
+}
+
+.mb-4 {
+  margin-bottom: $base-spacing-unit * 3;
 }
 
 .mr-md-1 {
