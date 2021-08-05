@@ -1,15 +1,12 @@
 ---
 layout: page-back
 title:  Building a modular design & dev architecture
-description: The <strong>Community Directory 2.0</strong> is a tool to help members from the Google for Startups communities networking, hiring and staying connected with the space
+description: The <strong>Community Directory 2.0</strong> is a tool to help members from the Google for Startups communities networking, hiring and staying connected with the space.
 client: Google for Startups
 client-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Google_for_Startups_logo.svg/1280px-Google_for_Startups_logo.svg.png
 tags: [UX research, UI design, Front-end Development]
 image:  '/images/work/gfs-directory-2B.png'
 ---
-<!-- > In the future, robots will do all the work, so the only reasonable profession to pursue is to build and repair robots (until they repair themselves!)
-–<i>Young Ivo, 1998</i> -->
-
 Since we launched <a href="gfs-directory">the first version</a> of our Community Directory, many things changed. The global community went from offline to online, we welcomed new members from Japan, Korea and Warsaw, and the needs of both the members and the community builders evolved.
 
 That version 1.0 was fairly simple, but our research pointed us to different new directions, and the Google team requested new features, so we decided to <strong>revamp the whole layout and the development pipeline</strong> to better adapt to product changes and improvements.

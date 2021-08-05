@@ -1,7 +1,7 @@
 ---
 layout: page-back
 title:  Turn your life into an epic experience
-description: Gamify was a digital space to share achievements and challenge your friends
+description: Gamify was a digital space to share achievements and challenge your friends.
 tags: [UX research, UI design, Branding, Front-end Development, Mixpanel, Video production, Digital Marketing]
 image:  '/images/work/gamify.png'
 ---

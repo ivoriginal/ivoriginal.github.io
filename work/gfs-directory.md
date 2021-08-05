@@ -1,15 +1,12 @@
 ---
 layout: page-back
 title:  Helping people connect, from Tokyo to Madrid
-description: The <strong>Community Directory</strong> is a tool to help members from the Google for Startups communities finding their people
+description: The <strong>Community Directory</strong> is a tool to help members from the Google for Startups communities finding their people.
 client: Google for Startups
 client-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Google_for_Startups_logo.svg/1280px-Google_for_Startups_logo.svg.png
 tags: [UX research, UI design, Front-end Development]
 image:  '/images/work/gfs-directory-old.png'
 ---
-<!-- > In the future, robots will do all the work, so the only reasonable profession to pursue is to build and repair robots (until they repair themselves!)
-–<i>Young Ivo, 1998</i> -->
-
 Your first day at a <strong>co-working space</strong> is pretty much like your first day of school. Usually there's someone that explains to you the schedule, the rules and where you can pee. 
 
 You know that you have to take your own stuff (say books, say laptop) and some money for food, but as soon as you get there you start realising that you don't know anyone and your life as a co-worker is gonna be pretty miserable if you don't fix that <a href="https://www.urbandictionary.com/define.php?term=asap">asap</a>.
