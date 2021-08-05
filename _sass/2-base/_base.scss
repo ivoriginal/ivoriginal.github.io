@@ -322,6 +322,7 @@ p {
 
   img {
     margin: 16px 0;
+    width: 100%;
   }
 
 }
@@ -367,6 +368,13 @@ iframe {
 .about iframe {
   height: 300px;
 }
+
+// 
+code {
+  padding: 0 4px;
+  background-color: var(--medium-gray);
+}
+
 
 // HELPERS
 
