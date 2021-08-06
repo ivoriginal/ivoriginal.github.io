@@ -2,7 +2,7 @@
 layout: page-back
 title:  Making cities more friendly to families
 description: <strong>POiN Places</strong> is a tool that helps families planning their time together through collaborative reviews.
-client: POiN
+client: Motherfounder
 # client-logo: https://poinplaces.com/static/poin_app/img/logos/POiN_logo.png
 tags: [UX research, UI design, Development]
 image:  '/images/work/poin.png'
@@ -201,43 +201,81 @@ That said, I tried to design a layout that didn't rely too much on user generate
 
 ![]({{site.baseurl}}/images/work/poin/poin_ficha-2.png)
 
-The CTA for this page was *reserve now*, because affiliate reservations are one of the main things that bring money to the business. Here's the mobile version:
+The CTA for this page was *reserve now*, because affiliate reservations are one of the main things that bring money to the business. On the mobile version, it's fixed at the bottom.
 
 ![]({{site.baseurl}}/images/work/poin/poin_ficha-mobile.png)
 
-Save and share.
+We reserved some space for the *save* and *share* actions, though the team decided to put that development on hold until further notice. In the module with blue background I added the write review CTA:
+
+![]({{site.baseurl}}/images/work/poin/poin_review.png)
 
 ### **The design system**
 
-foundation pa cuando me vaya
+Because the nature of freelancing projects, you usually work from point A to B and then leave. Of course it's possible to continue with a project at any given time, but sometimes it's very difficult to coordinate schedules. So I built a very basic design system for the team to continue building without the help of a designer.
 
-#### Brand: colors, icons, etc
+#### Brand: typography, colors and icons
 
-Poppins and Material Icons + The Noun Project
+POiN's brand was designed by [Vitor Zanirato](https://www.behance.net/vzanirato). The selected typography was **Poppins**. I tested the values for our typographic system with [Type Scale](https://type-scale.com/) and generated it in Figma with [Font Scale](https://type-scale.com/).
 
-The color system.
+![]({{site.baseurl}}/images/work/poin/poin_brand-typo.png)
+
+The colors were: <br />
+<code style="background-color: #0B108C; color: white;">POiNBlu #0B108C</code>
+<br />
+<code style="background-color: #007BFF; color: white;">LightBlu #007BFF</code>
+<br />
+<code style="background-color: #FFFDF9; color: black; border: 1px solid black;">POiNWhite #FFFDF9</code>
+<br />
+<code style="background-color: #FFBE48; color: black;">POiNEllow #FFBE48</code>
+<br />
+<code style="background-color: #F12E5E; color: white;">POiNRed #F12E5E</code>
+<br />
+<code style="background-color: #6A4A00; color: white;">Brown #6A4A00</code>
+
+![]({{site.baseurl}}/images/work/poin/poin_brand-color.png)
+
+I focused on <code style="background-color: #007BFF; color: white;">LightBlu #007BFF</code> for the UI elements and generated some shades with [Coolors](https://coolors.co/007bff) and the [Material Color Tool](https://material.io/design/color/the-color-system.html#tools-for-picking-colors).
+
+![]({{site.baseurl}}/images/work/poin/poin_color-shades.png)
+
+Most of the iconography came from **The Noun Project**, and for the UI elements I used the **Material Icons** for size and spacing consistency. For the tags, because the icons were from different sets, I created a grid to standarise paddings.
+
+![]({{site.baseurl}}/images/work/poin/poin_tags.png)
 
 #### Navigation & responsiveness
 
-The navigation bar
+We wanted to keep navigation as simple as possible, but trying to condense the search bar, the main navigation options and the actions on the same bar was a real challenge. In mobile and small tablet viewports, we'll move some of those elements to the bottom.
 
 ![navigation]({{site.baseurl}}/images/work/poin/poin_components-comp.png)
 
-If they didn't notice the navigation bar, they could access those other sections from the Discover modules. 
+But in intermediate viewports it wasn't that easy, so we made some of those components responsive:
 
-<div class="gallery-box">
-  <div class="gallery">
-  	<img src="/images/work/poin/poin_discover-2.png">
-  	<img src="/images/work/poin/poin_discover-3.png">
-  </div>
-</div>
+![navigation]({{site.baseurl}}/images/work/poin/poin_components-resp.png)
+
+I also specified container sizes and breakpoints. For the Discover page it was important that the first module, the one with the baloons and the search box, communicated that sensation of space and wonder, so its container had to be a little wider:
+
+![navigation]({{site.baseurl}}/images/work/poin/poin_container.png)
+
+In bigger viewports it looked amazing with a safe max-width, and in smaller ones, baloons were a little bit off the screen. We did something similar to this at Commit Sans a while a go on a project with Fintonic, positioning the images at the sides as pseudoelements that didn't interfere with the rest of the layout.
+
+![navigation]({{site.baseurl}}/images/work/poin/poin_container-2.png)
 
 #### Cards
 
-Cards: standard + wide
+Another of the key elements of the product was the card. That's how you discover places, looking at cards, so they should provide all the info you need in a very limited space. After prioritising which fields would be shown (name: yes, address: yes, phone: no, etc.) I created 2 variants:
 
-visor de imagenes cuando hay 1, 2 y 3+
+![navigation]({{site.baseurl}}/images/work/poin/poin_cards.png)
 
-### **The impact**
+The big one is for the discover page. The horizontal one is for the Places page, and its XS variant has a border radius to indicate that that's where you should press to see all the info (it opens the place view). When there's the option to book a table, an outlined button appears at the bottom to make it easier and faster for the user.
 
-eeeeeee
+If there was just one picture available, it showed at width: 100%, and with 3 or more pictures it showed a little preview with the number of pictures available in the gallery:
+
+![navigation]({{site.baseurl}}/images/work/poin/poin_img-viewer.png)
+
+<!-- ### **The impact** -->
+
+### **Wrapping up**
+
+This design's been in the oven for a while, and as it's still in development, I'm looking forward to see how it impacts the experience of the parents. I really hope that tools like POiN help urban parents navigate a world that, as population ages, is slowly turning its back on them. Working with Angelica, Nazareth and Irene has been a hell lot of fun, and experiences like this remind me why I love to work with small teams and to build things (almost) from scratch.
+
+If you need help with your design, development or strategy, click the banner below to book a meeting :)
