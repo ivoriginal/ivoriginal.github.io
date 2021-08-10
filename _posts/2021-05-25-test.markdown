@@ -1,9 +1,0 @@
----
-layout: blog-post
-title:  Reflexiones sobre la docencia (y la vida)
-subtitle:
-date:   2021-08-01 15:01:35 +0200
-image:  '/blog/images/fictizia.jpg'
-tags: [Educación]
----
-Cuando empecé a hacer cosas no me imaginaba la de cosas que iba a hacer. Qué de cosas, madre mía.
