@@ -2,23 +2,25 @@
 layout: blog-default
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
+<div class="container margin-top">
+  <div class="row post blog">
+    <div class="col-12">
       <div class="post__info">
 
-        {% if page.tags.size >= 1 %}
+        <h1 class="post__title">{{ page.title | escape }}</h1>
+        <p class="post__description">{{ page.description }}</p>
+
+        <div class="post__meta">
+          <a class="post__author" href="{{site.baseurl}}/about/">{{site.data.settings.author}}</a> – <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+
+          {% if page.tags.size >= 1 %}
           <div class="post__tags">
             {% for tag in page.tags %}
               <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
             {% endfor %}
           </div>
-        {% endif %}
+          {% endif %}
 
-        <h1 class="post__title">{{ page.title | escape }}</h1>
-
-        <div class="post__meta">
-          <a class="post__author" href="{{site.baseurl}}/about/">{{site.data.settings.author}}</a> – <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
         </div>
 
       </div>
@@ -41,11 +43,11 @@ layout: blog-default
 
   <article class="post">
 
-    <div class="post__content">
+    <div class="post__content blog serif">
       {{ content }}
     </div>
 
-    <div class="post__share">
+    <!-- <div class="post__share">
       <ul class="share__list list-reset">
         <li class="share__item">
           <a class="share__link share__twitter"
@@ -68,7 +70,7 @@ layout: blog-default
           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     {% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
 
@@ -77,5 +79,3 @@ layout: blog-default
 <!-- end post -->
 
 {% include section-related-posts.html %}
-
-{% include section-subscribe.html %}
