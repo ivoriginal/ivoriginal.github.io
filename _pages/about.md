@@ -30,6 +30,8 @@ And how (and where) to find free events with catering to save money. At a global
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/16gTCYtD5UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br />
+
 We closed Gamify in 2017 and I moved to Berlin (I certainly did enjoy that first visit), joined the **Factory** and tried to make some money with videos and motion graphics. Again. Some say that life is like an endless cycle. Or circle. I'm not sure.
 
 ![Factory Designers Circle]({{site.baseurl}}/images/about/factory.jpeg)
