@@ -243,12 +243,6 @@ table td {
   }
 }
 
-.article__content .button {
-  width: 100%;
-  text-align: center;
-  margin-top: 16px;
-}
-
 .lazy {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -315,10 +309,11 @@ p {
 }
 
 // page subtitle
-.page p {
+.page p, .blog p {
   line-height: 1.4;
   // font-size: $base-font-size * 1.250;
-  margin: $base-spacing-unit 0;
+  // margin: $base-spacing-unit 0;
+  margin: 4px 0px 16px 0;
 
   img {
     margin: 16px 0;
@@ -371,8 +366,8 @@ iframe {
 
 // 
 code {
-  padding: 0 4px;
-  background-color: var(--medium-gray);
+  // padding: 0 4px;
+  background-color: var(--syntax-highlighting-background);
 }
 
 
@@ -493,6 +488,10 @@ code {
 
 .pt-2 {
   padding-top: $base-spacing-unit * 2;
+}
+
+.pb-2 {
+  padding-bottom: $base-spacing-unit;
 }
 
 .pr-xs-0 {
