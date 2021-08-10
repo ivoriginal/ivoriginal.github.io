@@ -13,7 +13,7 @@
               <h2 class="section__title" style="font-family: Georgia, 'Times New Roman', Times, serif">Inconexo</h2>
               <a class="section__link" href="{{ '/blog' | relative_url }}">View more</a>
             </span>
-            <p class="section__subtitle">A blog about stuff I find interesting (in Spanish)</p>
+            <p class="section__subtitle" style="margin: 0;">A blog about stuff I find interesting (in Spanish)</p>
           </div>
         </div>
       </div>
@@ -24,9 +24,7 @@
     <div class="row">
       {% if site.posts.size > 0 %}
         {% for post in site.posts offset:0 limit:2 %}
-          <div class="col col-6 col-m-12">
-            {% include article.html %}
-          </div>
+          {% include article.html %}
         {% endfor %}
       {% endif %}
     </div>
