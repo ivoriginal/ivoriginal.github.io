@@ -1,9 +1,0 @@
----
-layout: blog-post
-title:  ¿Cómo que Inconexo?
-subtitle: Por qué leches tengo yo un blog.
-date:   2021-05-24 15:01:35 +0200
-image: '/images/work/gfs-directory/canvas.jpg' 
-tags: Blogging
----
-Pues porque mola.
