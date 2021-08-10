@@ -83,13 +83,6 @@ portfolio:
   portfolio__subtitle: cool stuff people pay me to do, talks and workshops, personal projects
   portfolio__gallery:
 
-    - image: /images/work/gfs-directory-2.jpg
-      title: Global Directory
-      description: A modular design & dev architecture
-      client: Google for Startups
-      industry: Community Management
-      url: /work/gfs-directory-2
-
     - image: /images/work/gfs-directory-old.png
       title: Community Directory
       description: A digital roster to help people connect
@@ -103,7 +96,8 @@ portfolio:
       client: maldita.es
       client-logo: https://miro.medium.com/max/844/1*v2mrZKEqqY80h0KpUIr-4Q.jpeg
       industry: NGO
-      url: https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8
+      url: /work/no-more-haters
+      # url: https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8
 
     - image: /images/work/poin.png
       title: POiN Places
@@ -138,7 +132,8 @@ portfolio:
       description: Learn about the startup ecosystem
       client: Trenlab / Wayra
       industry: Entertainment
-      url: https://medium.com/products-for-the-people/battle-appgainst-time-8b035b0117d
+      url: /work/trenlab
+      # url: https://medium.com/products-for-the-people/battle-appgainst-time-8b035b0117d
 
     # - image: /images/work/domolock.png
     #   title: Domolock
@@ -339,7 +334,7 @@ contact:
 #-------------------------------
 # Comment Section (Disqus)
 
-disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+# disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
