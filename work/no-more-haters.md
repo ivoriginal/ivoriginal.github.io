@@ -24,10 +24,8 @@ image:  '/images/work/no-more-haters.png'
 
 </div> -->
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
-
-<code>This project was developed with Carlos Hernández as <strong>Commit Sans</strong>, our design & development studio.</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
+	<code>This project was developed with Carlos Hernández as <strong>Commit Sans</strong>, our design & development studio.</code>
 </div>
 
 ### **The client & the project**
@@ -131,10 +129,8 @@ We were going to have to compile the web to upload it as an app to the Apple and
 
 ![]({{site.baseurl}}/images/work/no-more-haters/nmh_layout-responsive-2.jpeg)
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
-
-<code>If you're interested in the technical side, check out <a href="https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8">our post</a> in Products for the People (in Spanish)</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
+	<code>If you're interested in the technical side, check out <a href="https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8">our post</a> in Products for the People (in Spanish)</code>
 </div>
 
 
@@ -217,8 +213,6 @@ After three months of hard work and some more time of bugfixes and small updates
 
 And if you want to do your bit to stop hate speech and don't know where to start, take a look at [this](https://nolesdescasito.carrd.co/).
 
-<div style="background: var(--medium-gray); padding: 8px; margin-top: 24px; border-radius: 8px;">
-
-<code>Translated from the <a href="https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8">original</a> published in <strong>Products for the People</strong> (in Spanish)</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-top: 24px; border-radius: 8px;">
+	<code>Translated from the <a href="https://medium.com/products-for-the-people/combatir-el-discurso-del-odio-y-la-desinformaci%C3%B3n-con-juegos-8eee36de14b8">original</a> published in <strong>Products for the People</strong> (in Spanish)</code>
 </div>
