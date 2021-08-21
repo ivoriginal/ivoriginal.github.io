@@ -39,18 +39,19 @@ Your first day at a co-working space is pretty much like **your first day of sch
 
 If you're lucky enough to get accepted into <a href="https://campus.co/">one of Google for Startups campuses</a>, you'll be surrounded by founders, amazing technical people and so on, so you'll want to meet as many people as possible while your –typycally six months– membership lasts.
 
-### **The process**: digitalizing our informal knowledge
+### **The process**
 
-At that time, <a href="https://codingcarlos.com/">Carlos</a> and I had been part of the Madrid community for 5+ years, so <strong>we basically had met everyone</strong>. When the Campus team started exploring how they could help people connect inside the community, they didn't take long to notice that we might have some insights on that. 
+#### Digitalizing our informal knowledge
+At that time, [Carlos](https://codingcarlos.com/) and I had been part of the Madrid community for 5+ years, so <strong>we basically had met everyone</strong>. When the Campus team started exploring how they could help people connect inside the community, they didn't take long to notice that we might have some insights on that. 
 
 <a href="https://www.linkedin.com/in/eduque/">Edu Duque</a> scheduled a meeting with us that kickstarted the coolest project I've ever been part of. We had a lot of informal knowledge, and this was the perfect chance to organise it; we drafted a simple script, a list of topics that we wanted to understand better and started the first round of **interviews**.
 
 ![Carlos and I, gathering insights]({{site.baseurl}}/images/work/gfs-directory/mad.jpg)
 *Carlos (left) chatting with two members of the Madrid community over coffee*
 
-#### The research (part 1)
+#### The research (part 1)
 
-The script: questions where divided into 5 categories: 
+For our first round of interviews, we drafted a script with 5 categories of questions: 
 
 - <strong>First contact</strong>: how did you find about the campus?
 - <strong>The community and you</strong>: what's your role in the ecosystem (founder, employee...)?
@@ -58,21 +59,43 @@ The script: questions where divided into 5 categories:
 - <strong>Your needs</strong>: what are you looking for? To hire if you're a founder, new opportunities if you're an employee...
 - <strong>Tools and processes</strong>: how do you communicate with your co-workers? And with your colleagues from the knitting meetup? And with your friends?
 
-<!-- Asking that very same questions in the Tel Aviv community lead to very interesting insights, but you'll have to keep reading to find out. -->
+We wanted to know how people used the space. How and where they connected with other members. Who were they co-working buddies and how they met. What they expected from the space and if they were aware or not about the things they had access to. For example: it was possible to ask for a passport to use co-workings that were part of the Google for Startups network in other countries, but... do members know? If so, how they found out?
 
-#### The findings: unknown unknowns
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 24px; border-radius: 8px;">
+  <code>We forgot to include something very important: devices they use and how. We'll find out more about this in <a href="#the-first-iteration">the first iteration</a>.
+  </code>
+</div>
 
-We soon realised that the main problem when trying to integrate is that <strong>you don't know what you don't know</strong>. If you randomly talked with Carlos, he'll ask you about your background and find good matches for you. If no one tells you to talk to a connector like him, you'll probably be relatively isolated for a while.
+#### The findings
 
-We also found out that the main reason to look for new connections was needing help with a certain tool or technology (say Mixpanel or Python), but if you haven't met at least one technical profile... who should you ask for help? To have a better understanding of all the parties involved, primary and secondary users, their needs, our (legal) constraints and so on, we spent a few days mapping it all. 
+We soon realised that in the Madrid community people gathered around verticals (industry or profession). The **secondary user** was the space manager, but we had different segments of **primary users**: 
+
+- The **well connected founder** who wants to hire and to raise money.
+- The **not so well connected founder** who wants to connect with other founders.
+- The **unhappy employee** who's looking for new opportunities.
+- The **happy employee** who wants to socialise. 
+
+And the list goes on and on. But the key that made people connect was, given that you know what you need, being able to discover who's providing it. 
+
+If you randomly talked with a connector like Carlos, he'll ask you about your background and find good matches for you, so that's **the core need that we'll need to help fix with technology**: finding out who knows who without someone(s) acting as bottlenecks.
+
+We also found out that another reason to proactively look for new connections was **needing help with a certain tool** or technology (say Mixpanel or Python), but if you haven't met at least one technical profile... who should you ask for help?
+
+To have a better understanding of all the parties involved, primary and secondary users, their needs, our (legal) constraints and so on, we spent a few days mapping it all. 
 
 ![UX Mapping]({{site.baseurl}}/images/work/gfs-directory/canvas.jpg)
+*Me, filling a UX canvas*
 
 ### **The product(s)**
 
 #### The MVP
 
-For the pilot, we finally decided to build <strong>a simple directory</strong> of people with the ability to search by name, company and skill; the back-end would be a simple Google spreadsheet managed by the Campus team. User-generated content is risky, so the Campus would provide professional headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a>, their in-house photographer. 
+For the pilot, we finally decided to build <strong>a simple directory</strong> of people with the ability to search by name, company and skill; the back-end would be a simple Google spreadsheet managed by the Campus team. 
+
+![First version]({{site.baseurl}}/images/work/gfs-directory/ss-first.png)
+*Yes, the MVP was... ugly*
+
+User-generated content is risky, so the Campus would provide professional headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a>, their in-house photographer. 
 
 <div class="gallery-box">
   <div class="gallery">
@@ -86,7 +109,7 @@ For the pilot, we finally decided to build <strong>a simple directory</strong> o
   <em>Headshots by <a href="https://www.instagram.com/p/B_hgK19jhvD/" target="_blank">Mario</a></em>
 </div>
 
-#### The tech stack
+#### The (initial) tech stack
 
 The front-end was built with vue.js + Vuetify, because: 
 1. we had <strong>total freedom</strong> to choose the stack, and we wanted to learn vue.js, so this was a great chance.
@@ -98,55 +121,59 @@ We started styling our components using their brand guidelines as reference and 
 
 The first version of the directory looked really cool on mobile, but for bigger viewports it was fairly ugly and difficult to use. On desktop, the directory showed a grid of (massive) cards, while for mobile we designed a small variant of our card component to show a vertical list.
 
-![First version]({{site.baseurl}}/images/work/gfs-directory/ss-first.png)
-*Yes, the MVP was... ugly*
-
-#### Research results and biases
-
 We **assumed** that you wander around the space looking for someone on your phone, so we focused on the mobile UI, following the "mobile first" mantra. That was just plain stupid: if you visit the Campus, you'll see almost everyone sitting at their desk, working on their laptops. Kudos to us.
 
-"Mobile first" doesn't (or shouldn't) mean "build your UI for small viewports and then adapt to the bigger ones". It was meant for an era when clients still told you to make everything "responsive". 
-After releasing that first version, analytics helped us realise that <strong>+80% of traffic came from desktop</strong>, so focusing on the mobile UI didn't look like the best plan anymore.
+After releasing that first version, analytics helped us realise that <strong>+80% of traffic came from desktop</strong>, so focusing on the mobile UI didn't look like the best plan anymore. "Mobile first" doesn't (or shouldn't) mean "build your UI for small viewports and then adapt to the bigger ones". It was meant for an era when clients still told you to make everything "responsive". 
 
-We quickly **iterated** the interaction model:
+We quickly **iterated** the interaction model, keeping all the good decisions we took for the mobile version but focusing more on the desktop experience:
 
 ![Search by skill]({{site.baseurl}}/images/work/gfs-directory/ss-no-filters.png)
 <!-- *Search by skill* -->
 
-(...)
-
 #### The search experience (1.0)
 
-We designed that huge search bar on the top to gather data from search queries. It was amazing. Some people typed names like "Andrea", skills like "UX" and "WordPress", and we found a surprisingly large amounts of queries like "free beer" and "events with beer" (LOL). 
+We designed that huge search bar on the top **to gather data from search queries**. It was amazing. Some people typed names like "Andrea", skills like "UX" and "WordPress", and we found a surprisingly large amounts of queries like "free beer" and "events with beer".
 
 And before you ask: no, we're not building an event related feature (yet). Go find your own free beer.
 
 We used some of this info to craft a new placeholder indicating what kind of things you can search for in one sentence: "Try <strong>RatedPower</strong> (a well known startup inside the community), <strong>Andrea</strong> (a well known person inside the community) or <strong>UX</strong> (one skill that most of people know–more than PHP, probably)"
 
-But we soon realised that this tool is meant to <i>discover</i>, not to <i>find</i>, so there should be a different way of <i>searching</i>. For that, we released this "quick filter" bar:
-
-![Search by skill]({{site.baseurl}}/images/work/gfs-directory/ss-search.png)
+![Search bar]({{site.baseurl}}/images/work/gfs-directory/ss-search-2.png)
 <!-- *Search by skill* -->
+
+But we soon realised that this tool is meant to <i>discover</i>, not to <i>find</i>, so there should be a different way of <i>searching</i>. 
+
+By this time, the Program Manager was pushing (...) so we already had the data. We only needed to find a way to interact with it, and our take was this "quick filter" bar:
+
+<!--![Search by skill]({{site.baseurl}}/images/work/gfs-directory/ss-search.png)-->
+<!-- *Search by skill* -->
+
+![Search by skill]({{site.baseurl}}/images/work/gfs-directory/gfs_search-2.png)
 
 We remembered this quote from one of our interviews:
 
 > The ability to see who has a similar skillset to your own is a great icebreaker.
 
-This way, a user could select the skills they're interested in and sort the content in different ways: alphabetically, by program and so on. Implementing that quick filter bar greatly increased profile views and search by skill, so it looked like we were headed in the right direction, but then, Tel Aviv came.
-
-#### The backoffice
-
-We ended up developing a tool (...)
+This way, a user could select the skills they're interested in and sort the content in different ways: alphabetically, by program and so on. Implementing that quick filter bar greatly increased profile views and search by skill, so it looked like we were headed in the right direction.
 
 ### **Going global**
+
+#### The *other* product
+
+A spreadsheet as backend was just fine for the pilot, but as the product grew, we ended up developing an actual backend with Neo4j and *another* tool for space managers to approve or reject profiles, to add people or startups manually and even to add an FAQ menu.
+
+![The backoffice]({{site.baseurl}}/images/work/gfs-directory/gfs_backoffice-old.png)
+*The first version of the back-office*
+
+We'll talk later about how it evolved to adapt to our clients needs.
 
 #### The research (part 2)
 
 That initial pilot in Madrid had great engagement metrics, so the Google for Startups team decided to turn our little pilot into an <strong>offical product</strong>. We'd scale it to other 3 hubs (São Paulo, London and Tel Aviv), and then to all the remaining campuses (Warsaw, Tokyo and Seoul). 
 
-Always keeping in mind the "unknowns unknowns", we concluded that we'd need to visit all Campuses to do some on-site research before releasing a product within communities that (almost certainly) had different ways of connecting and communicating. 
+Always keeping in mind the "unknowns unknowns", we concluded that we needed to visit all Campuses to do some on-site research before releasing a product within communities that (almost certainly) had different ways of connecting and communicating. 
 
-The team was absolutely on board with that idea, so they allocated some budget for this "second phase" and we packed up and spent some days in London, Tel Aviv and São Paulo.
+The team was absolutely on board with that idea, so they allocated some budget for this second phase and we packed up and spent some days in London, Tel Aviv and São Paulo.
 
 <div class="gallery-box">
   <div class="gallery">
@@ -157,20 +184,24 @@ The team was absolutely on board with that idea, so they allocated some budget f
   <em>Learning about communities around the world</em>
 </div>
 
-We found out that (...)
+The Tel Aviv ecosystem was the most interesting: massive access to funding, hyper connected founders and lots of vibrant communities. We conducted another round of interviews and this time **we documented it rigorously**.
 
 ![]({{site.baseurl}}/images/work/gfs-directory/gfs_interviews.png)
 <!-- *Search by skill* -->
 
+In Madrid, communities were vertical: fintech, product management or machine learning. When you leave your job to start a company, you have to start building a new network to get access to funding, hiring, mentoring and corporate clients.
+
+In Tel Aviv, communities were horizontal, probably because most of people serve in the army. That's where they start building their professional network, so when they start a company, they've already met PMs, developers and would-be big corporation employees.
+
+![]({{site.baseurl}}/images/work/gfs-directory/gfs_tlv-research.png)
+
+Event feature (...)
+
+![]({{site.baseurl}}/images/work/gfs-directory/gfs_events-draft.png)
+
 #### New needs, new features
 
-During the last bits of the pre-pandemic world we conducted that research and worked in several improvements for the Directory. We started <a href="https://communitytools.co/">Community Tools</a> with the goal to offer this product to more communities outside Google for Startups, and to develop new open source solutions.
-
-2020 was a tough year for all. Our plans for the directory inside and outside Google had to be put on hold (...)
-
-Since we launched <a href="gfs-directory">the first version</a> of our Community Directory, many things changed. The global community went from offline to online, we welcomed new members from Japan, Korea and Warsaw, and the needs of both the members and the community builders evolved.
-
-(...) our research pointed us to different new directions, and the Google team requested new features, so we decided to <strong>revamp the whole layout and the development pipeline</strong> to better adapt to product changes and improvements.
+During the last bits of the pre-pandemic world we conducted that research and worked in several improvements for the Directory.
 
 In Tel Aviv we discovered that people use Facebook as we use LinkedIn here in Spain–if you want to contact the CEO of a company you want to work with, you send them a friend request. Because Facebook is used both personally and professionally (and because the product itself is designed to be and endless source of content) the number of daily notifications turns valulable information into noise. 
 
@@ -182,6 +213,11 @@ The problem with our first layout was that it was perfect for showing a big grid
 *The layout was perfect... for just one thing*
 
 SORTING, NOTIFICATIONS, FAQ and SLACK
+
+#### Changes to the backoffice
+
+![The backoffice]({{site.baseurl}}/images/work/gfs-directory/gfs_backoffice-cms.png)
+*The backoffice CMS*
 
 ### **The second iteration**: a modular architecture
 
@@ -230,20 +266,16 @@ That ace is **a typographic system that scales**: we have a base font size that 
 
 It's as simple as picking a base size that's a multiple of 4 (our typographic grid is in base 4, because the layout grid is in base 8) and multiply it for a standarised constant:
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
-
-<code>media only screen and (min-width: $tablet) {
-	font-size: $base-font-size * 1.250;
-}</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
+  <code>media only screen and (min-width: $tablet) {
+    font-size: $base-font-size * 1.250;
+  }</code>
 </div>
 
 where 
 
-<div style="background: var(--medium-gray); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
-
-<code>$base-font-size: 14px;</code>
-
+<div style="background: var(--syntax-highlighting-background); padding: 8px; margin-bottom: 16px; border-radius: 8px;">
+  <code>$base-font-size: 14px;</code>
 </div>
 
 That way, in viewports where we really can't control our main container's width (tablets in portrait orientation, very wide smartphones...), typography will scale to achieve optimal legibility.
