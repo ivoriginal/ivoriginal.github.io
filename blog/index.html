@@ -17,6 +17,7 @@ description:
       {% endif %}
     </div>
     <div class="col col-4 col-m-12 col-t-12 col-d-12 mb-xs-2 categories">
+      {% if site.tags %}
       <h4 class="blog__title">Categorías</h4>
       <div class="tags">
         {% for tag in site.tags %}
@@ -24,7 +25,8 @@ description:
           {% assign posts = tag | last %}
           <div class="tag">{{t | replace:" ","-" }}</div>
         {% endfor %}
-      </div>      
+      </div> 
+      {% endif %} 
     </div>
   </div>
 </div>
