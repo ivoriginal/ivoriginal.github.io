@@ -25,7 +25,7 @@
           {% assign tag_slug = tag | slugify: "raw" %}
           <a 
             class="tag-link tag" 
-            href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
+            href="{{ site.baseurl }}/tags#{{ tag }}"
             rel="category tag">
               {{ tag }}
           </a>
