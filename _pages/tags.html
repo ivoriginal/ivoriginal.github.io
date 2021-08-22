@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Tags
+layout: blog-default
+title: Temas
 permalink: /tags/
 ---
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -15,7 +15,7 @@ permalink: /tags/
       <div class="row">
         <div class="col col-12">
 
-          <h1 class="tag__title">Tags</h1>
+          <h1 class="tag__title">Temas</h1>
         
           <ul class="tag__list list-reset">
             {% for item in (0..site.tags.size) %}
@@ -74,5 +74,3 @@ permalink: /tags/
 
 </section>
 <!-- end tags -->
-
-{% include section-subscribe.html %}
