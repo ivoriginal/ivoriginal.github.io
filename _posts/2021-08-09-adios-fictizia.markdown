@@ -21,7 +21,7 @@ Sí recuerdo que la señora que iba sentada a mi lado me dijo:
 
 Ciertos condicionantes genéticos unidos a 16 años de mal uso de pantallas desembocaron en que en diciembre de 2019 mi óptica de confianza me recomendase **empezar a usar gafas**. Poco después recibí una llamada de [Ángel Corral](https://www.linkedin.com/in/ancoar/), el aquél entonces gerente de una academia de formación para profesionales de la industria digital llamada Fictizia. Ángel y su equipo llevaban casi 10 años formando a la gente que vive o frecuenta [la capital del Reino](https://es.wikipedia.org/wiki/Madrid) en la creación de gráficos en tres dimensiones, de efectos especiales para cine y televisión, en las distintas ramas del desarrollo de software y en el diseño de producto digital. 
 
-Casi 10 años **moldeando consciencas**,  que [dirían](https://twitter.com/arianaescobar/status/1406214017329283072?s=20) algunos.
+Casi 10 años **moldeando consciencas**, que dirían algunos.
 
 <!-- Si te parece que estoy explicando demasiado sobre las materias que se impartían en Fictizia, te recomiendo encarecidamente que hagas amigos fuera del sector. -->
 
