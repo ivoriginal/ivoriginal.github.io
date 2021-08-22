@@ -54,11 +54,6 @@
 
 }
 
-// should work on page info too
-.post__info {
-  margin-bottom: 40px;
-}
-
 .post__tags {
   display: flex;
   // justify-content: center;
@@ -96,7 +91,7 @@
 }
 
 // 
-.page__client-tags {
+.page__client-tags, .post__meta-tags {
   align-items: start;
   flex-direction: column;
 
@@ -172,6 +167,7 @@
   line-height: 1;
   font-weight: 700;
   color: var(--heading-font-color);
+  margin-right: 16px;
 
   .post__author {
     display: inline-block;
