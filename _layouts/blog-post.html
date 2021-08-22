@@ -5,24 +5,24 @@ layout: blog-default
 <div class="container margin-top">
   <div class="row post blog">
     <div class="col-12">
-      <div class="post__info">
+      <div class="post__info mb-3">
 
         <h1 class="post__title">{{ page.title | escape }}</h1>
         <p class="post__description">{{ page.description }}</p>
 
-        <div class="post__meta">
-          <a class="post__author" href="{{site.baseurl}}/about/">{{site.data.settings.author}}</a> – <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+        <div class="flex post__meta-tags">
+          <div class="post__meta">
+            <a class="post__author" href="{{site.baseurl}}/about/">{{site.data.settings.author}}</a> – <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+          </div>
 
           {% if page.tags.size >= 1 %}
-          <div class="post__tags">
+          <div class="post__tags flex">
             {% for tag in page.tags %}
               <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
             {% endfor %}
           </div>
           {% endif %}
-
         </div>
-
       </div>
     </div>
   </div>
