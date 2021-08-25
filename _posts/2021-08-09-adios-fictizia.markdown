@@ -32,9 +32,11 @@ Minutos después de colgar cogía el siguiente autobús, ésta vez camino a Plaz
 
 #### Cuando todavía nos dábamos la mano
 
-Aquél día conocería a [Mike](https://www.linkedin.com/in/mikenoah), el humano encargado de decidir qué se aprendía y cuándo en el máster de diseño. Su carga de trabajo en una conocida consultora digital le estaba dificultando seguir el ritmo del máster. Ya sabes, las revolución industrial y sus consecuencias. Tras revisar el temario, el formato, alcance, objetivos, dedicación, el presupuesto e intercambiar dos o tres cotilleos sobre quién hace qué y cómo, **nos apretamos las manos** y nos pusimos ídem a la obra. No literalmente, claro. Ni en ese mismo momento.
+Aquél día conocería a [Mike](https://www.linkedin.com/in/mikenoah), el humano encargado de decidir qué se aprendía y cuándo en el máster de diseño. Su carga de trabajo en una conocida consultora digital le estaba dificultando seguir el ritmo del máster. Ya sabes, la revolución industrial y sus consecuencias. Tras revisar el temario, el formato, alcance, objetivos, dedicación, el presupuesto e intercambiar dos o tres cotilleos sobre quién hace qué y cómo, **nos apretamos las manos** y nos pusimos ídem a la obra. 
 
-Aquí va una elipsis. Porque yo me fui a casa, realmente. Y Mike se fue a dar su clase. Y después pasó un tiempo, puede que semanas. No me acuerdo. Pero no te interesarán los detalles, imagino. Comí muchas veces y fui al baño otras tantas. Lo que se saltan en las pelis, vamos. Sí recuerdo que empecé a apuntar notas sobre conocimientos que en algún momento adquirí y a relacionarlos con la estructura que Mike había diseñado para el máster. Ya sabes, lo de [knowledge in the world](https://medium.com/@matthewraychiang/doet-knowledge-in-the-head-and-in-the-world-64f901627eb3) y todo eso.
+No literalmente, claro. Ni en ese mismo momento. Porque yo me fui a casa, realmente. Y Mike se fue a dar su clase. Y después pasó un tiempo, puede que semanas. No me acuerdo. Sí recuerdo que empecé a apuntar notas sobre conocimientos que en algún momento adquirí y a relacionarlos con la estructura que Mike había diseñado para el máster. Ya sabes, lo de [knowledge in the world](https://medium.com/@matthewraychiang/doet-knowledge-in-the-head-and-in-the-world-64f901627eb3) y todo eso.
+
+`Pronto liberaré todas esas notas. Puedes [seguirme](https://twitter.com/ivoriginal) para enterarte cuando lo haga, y de paso seguir a [Diego](https://twitter.com/arketipo), otro ex-profe de Fictizia que anda con un proyecto similar y seguramente mejor.`
 
 Nuestra primera edición conjunta empezaba en marzo de 2020. Pero ya sabes lo que pasó en marzo de 2020. Si por aquél entonces estabas indispuesta y no te has enterado, no seré yo el que te lo cuente. Prepárate una tila, ponte cómoda y búscalo en [tu buscador de confianza](https://duckduckgo.com/?q=covid+19&t=hx&va=g&ia=coronavirus). Finalmente empezamos en octubre de 2020, terminando en marzo del 21. 
 La primera mitad la daría yo, centrándome en la parte más práctica: diseño de interfaz visual, manejo de herramientas, breve contexto de la industria (estado del arte, expectativas laborales...), prototipado y alguna cosilla más. La segunda mitad la daría Mike. Pero nunca la dió. Ahora te cuento por qué.
@@ -43,9 +45,13 @@ Primero te voy a contar **la montaña rusa de emociones** que fue esa primera ed
 
 #### La montaña rusa de emociones
 
-Estuve una tarde con Ángel aprendiendo cómo da uno clase en plena pandemia. Parte del alumnado vendría a las instalaciones de Plaza de España, y otra parte **seguiría la clase desde casa** por videollamada, así que no me podría mover de mi silla (para que los remotos me pudiesen ver y oir). También tendría que controlar las entradas y salidas de audio en tiempo real: si alguien activaba el micro de su ordenador para hacer una pregunta, el sonido saldría por mi altavoz, colándose por duplicado a través de mi micrófono y dejando sordos a los remotos.
+Estuve una tarde con Ángel aprendiendo cómo da uno clase en plena pandemia. Parte del alumnado vendría a las instalaciones de Plaza de España, y otra parte **seguiría la clase desde su casa** por videollamada. Todo el mundo estaría conectado a la misma llamada de Zoom. Yo estaría sentado en la silla del profe, con la cámara y el micro activos, así que, para que los remotos me pudiesen ver y oir, no me podría levantar para pasear por la clase o montar numeritos como en El club de los poetas muertos. 
 
-Si yo desactivaba mi altavoz, no oiría a los remotos preguntar. El truco era desactivarlo únicamente mientras alguien que estuviese en el aula preguntaba, lo que reducía un poco el dinamismo, pero... No se puede tener todo. Ocasionalmente habría algún contacto con positivos que nos obligaría a movernos temporalmente a *full remote* y dar las clases desde casa con un setup completamente distinto.
+La gente del aula tendría la cámara encendida y el micro apagado, teniendo yo que controlar las entradas y salidas de audio en tiempo real: si alguien que estuviese en el aula quería hacer una pregunta, para que le oyesen los remotos yo tendría que activar el micrófono de su ordenador desde mi mesa de mandos... Pero entonces el sonido entraría por su micro y saldría por mi altavoz, colándose por duplicado a través de mi micrófono y dejándonos sordos a todos. 
+
+Si yo desactivaba mi altavoz, no oiría a los remotos preguntar, ya que su voz salía a través de mi ordenador. No usaba cascos para que la gente que estaba en el aula les escuchase también. El truco era mutear mi ordenador únicamente mientras alguien que estuviese en el aula preguntaba, lo que reducía un poco el dinamismo, pero... No se puede tener todo. 
+
+Ocasionalmente habría algún contacto con positivos que nos obligaría a movernos temporalmente a *full remote* y dar las clases desde casa con un setup completamente distinto, para más inri.
 
 ![]({{site.baseurl}}/blog/images/02/prototipo.png)
 *Dando clase desde casa, Elena se agobia al ver un prototipo con muchos enlaces*
@@ -90,7 +96,10 @@ Organizamos una pequeña tutoría de fin de semana para ayudarla a ponerse al d�
 
 Se sintió como un pequeño fracaso personal, porque al principio del máster les conté a las alumnas que mi compromiso con su futuro laboral iba más allá de lo profesional. Quizá me equivoqué con ese enfoque. No lo sé. Para mí **no era solo un trabajo**. No lo hacía solo por el dinero. Quería darles la guía que yo eché en falta cuando me inicié de forma autodidacta. No tuve recursos para seguir con mi formación reglada (podría haber continuado en otra universidad), y aunque los hubiese tenido, nunca me he desenvuelto bien sentado en un aula. 
 
-Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase... Imagino que habrás oído hablar del [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor). Quizá, dando clase, **me costó establecer los límites**. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es **facilitar la información y su comprensión**. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional a la ratio alumno-profesor.
+Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase... Imagino que habrás oído hablar del [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor). Quizá, dando clase, **me costó establecer los límites**. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es **facilitar la información y su comprensión**. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional al número de alumnos, como bien explica aquí Olga:
+
+![]({{site.baseurl}}/blog/images/02/ego_poster.png)
+*El holograma improvisado*
 
 Pero los polluelos se siguen cayendo, y la última vez que me encontré uno en la acera, no me paré a recogerlo. Me estaré haciendo viejo.
 
@@ -98,7 +107,7 @@ Pero los polluelos se siguen cayendo, y la última vez que me encontré uno en l
 
 La misma distribución se cumplía en mi clase, y no creo que fuese casualidad. Aquella asignatura de economía me enseñó dos o tres cosillas, alguna de ellas bastante útiles: el [principio de Pareto](https://www.investopedia.com/terms/1/80-20-rule.asp), las [distribuciones normales](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal)... Un cuarto de las alumnas eran excepcionales bien por talento, por dedicación o por ambas. Otro cuarto estaban relativamente ausentes. El resto, seguía el ritmo con más o menos facilidad.
 
-Me consta que las formaciones en diseño suenel centrarse a partes (des)iguales en resolución de problemas y construcción de interfaz. Yo intenté enfocar la mía en la colaboración con desarrollo de software y negocio, también: pensar en cajas, soluciones mínimas, evitar modelos de interacción complejos; priorizar las soluciones multiplataforma y evitar escribir código cuando fuese posible. Pensar como desarrolladoras agiliza la cadena de montaje. Ser conscientes de que desarrollar cuesta dinero y capital humano evita malgastar recursos.
+Me consta que las formaciones en diseño sulen centrarse a partes (des)iguales en resolución de problemas y construcción de interfaz. Yo intenté enfocar la mía en la colaboración con desarrollo de software y negocio, también: pensar en cajas, soluciones mínimas, evitar modelos de interacción complejos; priorizar las soluciones multiplataforma y evitar escribir código cuando fuese posible. Pensar como desarrolladoras agiliza la cadena de montaje. Ser conscientes de que desarrollar cuesta dinero y capital humano evita malgastar recursos.
 
 Quizá por ello tres personas, Robe, Luisa y Jose Ángel, decidieron matricularse también en el máster de desarrollo *front-end*. Les sigo la pista de cerca, porque estoy seguro de que harán cosas chulas.
 
@@ -131,7 +140,7 @@ Sé humilde. Invita al debate.
 
 Estás ahí porque sabes bastante, no porque lo sepas todo. 
 
-No eres Dios, ni lo serás.
+No eres Dios. Nadie lo es.
 
 ---
 
