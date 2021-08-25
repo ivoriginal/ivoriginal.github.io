@@ -174,18 +174,16 @@ portfolio:
 #-------------------------------
 # Education
 education:
-  education__title: Teaching
+  education__title: Talks
   education__subtitle: Learn, build, teach, repeat
 
   education__list__long:
 
-    - image: /images/work/education/fictizia-clase.png
-      title: Master in user experience (UX) and graphical user interface design (UI)
-      description: 150 hours of design education where we learn to build digital products. Starting October 2021.
-      client: Fictizia
-      industry: Education
-      cta: Learn more
-      url: https://fictizia.com/formacion/master-ux-ui-diseno-producto-digital?gclid=CjwKCAjwq_D7BRADEiwAVMDdHovU2CKjo5bSOfp4a69_KRKWLagi6fFodviRbxbuvnRh1v08F7k-aBoCh9oQAvD_BwE
+    # - image: /images/work/education/fictizia-clase.png
+    #   title: Syllabus for the Master in user experience (UX) and graphical user interface design (UI)
+    #   description: It's free. Go get it.
+    #   cta: Learn more
+    #   url: https://fictiziaux.notion.site/Temario-ea5420ebf2a94872a7ba69081da5e1e4
 
   education__list__short:
 
@@ -339,4 +337,4 @@ contact:
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+# google-analytics: UA-64206750-1
