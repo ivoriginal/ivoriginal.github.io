@@ -6,16 +6,19 @@
     </div> -->
 
     <div class="article__content mr-lg-3">
+      <!-- Title + subtitle -->
+      <div>
+        <h2 class="article__title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 80 }}{% endif %}</p>
+      </div>
+      <!-- /Title + subtitle -->
 
-      <h2 class="article__title">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-
-      <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 80 }}{% endif %}</p>
-
+      <!-- Time + Tag -->
       <div class="">
 
-        <time class="article__date mr-md-1" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+        <time class="article__date mr-1" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
         
         <!-- {% if post.tags != 0 %}
         <span>·</span>
@@ -32,6 +35,7 @@
         {% endfor %}
 
       </div>
+      <!-- /Time + Tag -->
 
     </div>
 
