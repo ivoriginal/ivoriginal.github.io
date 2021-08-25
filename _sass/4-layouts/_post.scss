@@ -341,5 +341,11 @@
 }
 
 .page h4 {
+  margin-top: $base-spacing-unit;
   margin-bottom: 8px;
+}
+
+.page h3 {
+  margin-top: $base-spacing-unit * 2;
+  margin-bottom: $base-spacing-unit;
 }
