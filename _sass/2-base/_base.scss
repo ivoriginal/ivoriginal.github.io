@@ -46,6 +46,7 @@ h2 {
 
 h3 {
   font-size: $font-size-h3;
+  line-height: 1;
 }
 
 h4 {
@@ -313,17 +314,13 @@ p {
   line-height: 1.4;
   // font-size: $base-font-size * 1.250;
   // margin: $base-spacing-unit 0;
-  margin: 4px 0px 16px 0;
+  margin: 4px 0px 8px 0;
 
   img {
     margin: 16px 0;
     width: 100%;
   }
 
-}
-
-.page h4 {
-  margin-top: $base-spacing-unit * 1.5;
 }
 
 iframe {
@@ -434,6 +431,10 @@ code {
   margin-bottom: $base-spacing-unit * 3;
 }
 
+.mr-1 {
+  margin-right: $base-spacing-unit / 2;
+}
+
 .mr-md-1 {
   @media only screen and (min-width: $tablet) {
     margin-right: 8px;
@@ -479,6 +480,43 @@ code {
 .mb-lg-1 {
   @media only screen and (min-width: $desktop) {
     margin-bottom: 16px;
+  }
+}
+
+.pa-xs-0 {
+  @media only screen and (max-width: $mobile) {
+  padding: 0 !important;
+  }
+}
+
+.px-xs-1 {
+  @media only screen and (max-width: $mobile) {
+  padding-left: $base-spacing-unit;
+  padding-right: $base-spacing-unit;
+  }
+}
+
+.pl-xs-0 {
+  @media only screen and (max-width: $mobile) {
+    padding-left: 0 !important;
+  }
+}
+
+.pl-xs-1 {
+  @media only screen and (max-width: $mobile) {
+    padding-left: $base-spacing-unit !important;
+  }
+}
+
+.pr-xs-0 {
+  @media only screen and (max-width: $mobile) {
+    padding-right: 0;
+  }
+}
+
+.px-md-2 {
+  @media only screen and (min-width: $tablet - 1) {
+  padding: 0 $base-spacing-unit * 2;
   }
 }
 
