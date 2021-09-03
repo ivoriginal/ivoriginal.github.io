@@ -36,7 +36,7 @@ Aquél día conocería a [Mike](https://www.linkedin.com/in/mikenoah), el humano
 
 No literalmente, claro. Ni en ese mismo momento. Porque yo me fui a casa, realmente. Y Mike se fue a dar su clase. Y después pasó un tiempo, puede que semanas. No me acuerdo. Sí recuerdo que empecé a apuntar notas sobre conocimientos que en algún momento adquirí y a relacionarlos con la estructura que Mike había diseñado para el máster. Ya sabes, lo de [knowledge in the world](https://medium.com/@matthewraychiang/doet-knowledge-in-the-head-and-in-the-world-64f901627eb3) y todo eso.
 
-`Pronto liberaré todas esas notas. Puedes [seguirme](https://twitter.com/ivoriginal) para enterarte cuando lo haga, y de paso seguir a [Diego](https://twitter.com/arketipo), otro ex-profe de Fictizia que anda con un proyecto similar y seguramente mejor.`
+Pronto liberaré todas esas notas. Puedes [seguirme](https://twitter.com/ivoriginal) para enterarte cuando lo haga, y de paso seguir a [Diego](https://twitter.com/arketipo), otro ex-profe de Fictizia que anda con un proyecto similar y seguramente mejor.
 
 Nuestra primera edición conjunta empezaba en marzo de 2020. Pero ya sabes lo que pasó en marzo de 2020. Si por aquél entonces estabas indispuesta y no te has enterado, no seré yo el que te lo cuente. Prepárate una tila, ponte cómoda y búscalo en [tu buscador de confianza](https://duckduckgo.com/?q=covid+19&t=hx&va=g&ia=coronavirus). Finalmente empezamos en octubre de 2020, terminando en marzo del 21. 
 La primera mitad la daría yo, centrándome en la parte más práctica: diseño de interfaz visual, manejo de herramientas, breve contexto de la industria (estado del arte, expectativas laborales...), prototipado y alguna cosilla más. La segunda mitad la daría Mike. Pero nunca la dió. Ahora te cuento por qué.
@@ -96,10 +96,7 @@ Organizamos una pequeña tutoría de fin de semana para ayudarla a ponerse al d�
 
 Se sintió como un pequeño fracaso personal, porque al principio del máster les conté a las alumnas que mi compromiso con su futuro laboral iba más allá de lo profesional. Quizá me equivoqué con ese enfoque. No lo sé. Para mí **no era solo un trabajo**. No lo hacía solo por el dinero. Quería darles la guía que yo eché en falta cuando me inicié de forma autodidacta. No tuve recursos para seguir con mi formación reglada (podría haber continuado en otra universidad), y aunque los hubiese tenido, nunca me he desenvuelto bien sentado en un aula. 
 
-Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase... Imagino que habrás oído hablar del [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor). Quizá, dando clase, **me costó establecer los límites**. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es **facilitar la información y su comprensión**. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional al número de alumnos, como bien explica aquí Olga:
-
-![]({{site.baseurl}}/blog/images/02/ego_poster.png)
-*El holograma improvisado*
+Lo pasé francamente mal, siempre dudando de si lo que hacía estaba bien, no sabiendo cómo hacer que mi carrera avanzase... Imagino que habrás oído hablar del [síndrome del impostor](https://es.wikipedia.org/wiki/S%C3%ADndrome_del_impostor). Quizá, dando clase, **me costó establecer los límites**. Uno no puede tomarse la imposibilidad de alguien para seguir el ritmo como un fracaso personal. Tampoco la falta de voluntad, en otros casos. Al fin y al cabo, el trabajo del docente, según como yo lo veo, es **facilitar la información y su comprensión**. El alumno debe solicitar facilitación adicional en caso de que la compresión falle. Y el nivel de dedicación que puedes dedicar a cada persona es inversamente proporcional al número de alumnos.
 
 Pero los polluelos se siguen cayendo, y la última vez que me encontré uno en la acera, no me paré a recogerlo. Me estaré haciendo viejo.
 
@@ -142,9 +139,15 @@ Estás ahí porque sabes bastante, no porque lo sepas todo.
 
 No eres Dios. Nadie lo es.
 
+<br>
+
 ---
 
+<br>
+
 Gracias Ángel por ayudarme a ser más honesto, más humilde, más amable. [Más humano y menos raro](https://www.youtube.com/watch?v=6UBwtL__280&ab_channel=WarnerMusicSpain).
+
+<br>
 
 In Memoriam (2011-2021)
 
