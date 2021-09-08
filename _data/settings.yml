@@ -47,7 +47,7 @@ now:
   now__content:
     - # image: /images/work/gfs-directory/campus-london.jpg
       # title: 👷‍♂️
-      description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about something while eating.
+      description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about a random topic while eating.
       url: https://abrimosmelon.com/
       cta: Sounds refreshing
 
