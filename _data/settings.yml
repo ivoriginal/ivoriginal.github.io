@@ -128,9 +128,9 @@ portfolio:
       url: /work/giv
 
     - image: /images/work/trenlab.png
-      title: Trenlab Trivia
+      title: TrenLab Trivia
       description: Learn about the startup ecosystem
-      client: Trenlab / Wayra
+      client: TrenLab / Wayra
       industry: Entertainment
       url: /work/trenlab
       # url: https://medium.com/products-for-the-people/battle-appgainst-time-8b035b0117d
@@ -142,12 +142,12 @@ portfolio:
     #   industry: 
     #   url: /work/domolock
 
-    - image: /images/work/hocelot.png
-      title: Hocelot
-      description: Helping companies decide better
-      client: Hocelot
-      industry: Fintech
-      url: /work/hocelot
+    - image: /images/work/cango.png
+      title: Cangopal
+      description: Inventory & shipping made easy
+      client: Cango
+      industry: Logistics
+      url: /work/cango
 
     - image: /images/work/gamify.png
       title: Gamify
@@ -156,19 +156,12 @@ portfolio:
       industry: Social Networking
       url: /work/gamify
 
-    - image: /images/work/cango.png
-      title: Cangopal
-      description: Inventory & shipping made easy
-      client: Cango
-      industry: Logistics
-      url: /work/cango
-
-    - image: /images/work/pvdesign.png
-      title: pvDesign
-      description: The end-to-end software to design and engineer photovoltaic plants
-      client: RatedPower
-      industry: Energy
-      url: /work/RatedPower
+    # - image: /images/work/pvdesign.png
+    #   title: pvDesign
+    #   description: The end-to-end software to design and engineer photovoltaic plants
+    #   client: RatedPower
+    #   industry: Energy
+    #   url: /work/RatedPower
 
 
 #-------------------------------
@@ -216,18 +209,6 @@ projects:
   projects__subtitle: Cool stuff I'm not (usually) paid for
   project__list:
 
-    - image: https://secure.meetupstatic.com/photos/event/3/d/0/a/600_490755626.jpeg
-      title: Open Source Weekends
-      description: A meet up for OSS lovers. I helped with communication and multimedia.
-      tags: community
-      url: https://osweekends.com/
-
-    - image: https://miro.medium.com/max/3750/1*H_LtvjLiddMKwrECYAhZCQ.jpeg
-      title: Collisions Projects
-      description: We organise design critiques, tech mentoring and business education.
-      tags: community
-      url: https://collisionsprojects.com/#/
-
     - image: /images/free-the-fish.png
       title: Free the Fish
       description: A browser extension that helps you detecting and avoiding clickbait.
@@ -252,11 +233,23 @@ projects:
       tags: video
       url: https://www.youtube.com/watch?v=zegNRk_BLoo
 
-    - image: /images/levelup.jpeg
-      title: LevelUp!
-      description: I produced this terrible webseries many, many years ago.
-      tags: video
-      url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
+    - image: https://secure.meetupstatic.com/photos/event/3/d/0/a/600_490755626.jpeg
+      title: Open Source Weekends
+      description: A meet up for OSS lovers. I helped with communication and multimedia.
+      tags: community
+      url: https://osweekends.com/
+
+    - image: https://miro.medium.com/max/3750/1*H_LtvjLiddMKwrECYAhZCQ.jpeg
+      title: Collisions Projects
+      description: We organise design critiques, tech mentoring and business education.
+      tags: community
+      url: https://collisionsprojects.com/#/
+
+    # - image: /images/levelup.jpeg
+    #   title: LevelUp!
+    #   description: I produced this terrible webseries many, many years ago.
+    #   tags: video
+    #   url: https://www.youtube.com/watch?v=wrqt62lI--o&list=PLye0nleguaIYqa94pWLr-BUM2qz-pK5ev
 
     - image: /images/default.png
       title: Untitled-Song-01.mp3
