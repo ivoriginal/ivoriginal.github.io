@@ -45,7 +45,7 @@ now:
   now__title: Now
   now__subtitle: test
   now__content:
-      - # image: /images/work/gfs-directory/campus-london.jpg
+    - # image: /images/work/gfs-directory/campus-london.jpg
       # title: 👷‍♂️
       description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about something while eating.
       url: https://abrimosmelon.com/
