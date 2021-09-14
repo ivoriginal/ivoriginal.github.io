@@ -76,8 +76,12 @@ Silvia made us two proposals to share with the client so we could see how they f
 
 <div class="gallery-box">
   <div class="gallery">
-  	<img src="/images/work/no-more-haters/nmh_illustrations-a.png">
+	<div>
+  		<img src="/images/work/no-more-haters/nmh_illustrations-a.png">
+	</div>
+	<div>
 		<img src="/images/work/no-more-haters/nmh_illustrations-b.png">
+	</div>
   </div>
 	<em>Option A (left) and option B (right)</em>
 </div>
@@ -147,6 +151,8 @@ And here I'm showing the illustration system to Silvia (in Spanish):
 
 <iframe width="806" height="453" src="https://www.youtube.com/embed/RporiUt8lsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br />
+
 From that frame we generated all the characters and created components that we would reuse as instances in all the sections of the product. Having a page with all the assets, Carlos could export the characters in SVG, PNG or whatever he needed **without anyone acting as a bottleneck**. It was also useful to share the progress with the Maldita.es team, and especially to coordinate the launch of the NO MORE HATERS promotional landing page with Pablo, their in-house designer.
 
 ### **Designing the games**
@@ -208,6 +214,8 @@ From Keyshape you can export to Lottie, SVG, video formats and basically whateve
 ### **Launch and reception**
 
 <iframe width="543" height="305" src="https://www.youtube.com/embed/7u7mn-Vzdj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
 
 After three months of hard work and some more time of bugfixes and small updates, we finally finished NO MORE HATERS. The apps and the website have almost 14,000 users since its launch, but as you can see in the comments section of the campaign spot (above), there is still a lot of work to do. 
 
