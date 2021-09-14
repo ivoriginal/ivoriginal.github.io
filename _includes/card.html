@@ -12,12 +12,13 @@
 
       <a href="{{card.url | prepend: site.baseurl}}">
         <div class="article__content">
+          <div>
+            <h2 class="article__title">
+              <span href="">{{ card.title }}</span>
+            </h2>
 
-          <h2 class="article__title">
-            <span href="">{{ card.title }}</span>
-          </h2>
-
-          <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
+            <p class="article__excerpt">{% if card.description %}{{ card.description }}{% else %}{{ card.content | strip_html | truncate: 80 }}{% endif %}</p>
+          </div>
 
           {% if card.client %}
           <p class="article__excerpt" style="margin-top: 12px;">
