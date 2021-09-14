@@ -351,6 +351,13 @@
 
   @media only screen and (min-width: $tablet + 1) and (max-width: $desktop) {
     display: none;
+    // position: fixed;
+    // bottom: $base-spacing-unit;
+    // right: $base-spacing-unit;
+    // a {
+    //   background: black;
+    //   color: white;
+    // }
   }
   
 }
