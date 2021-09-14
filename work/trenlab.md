@@ -29,6 +29,7 @@ image:  '/images/work/trenlab.png'
 
 
 ![](https://www.economiadehoy.es/fotos/8/TrenLabenSouthSummit_.jpg)
+*Photo of the TrenLab booth with people standing and chatting animatedly*
 
 We were really excited by the opportunity to make a game, as it's something we've been wanting to do for a long time, and they won us over immediately with this phrase:
 
@@ -42,11 +43,11 @@ The first thing we did was to have a call with Luis Murrieta and Inês Oliveira,
 
 Immediately after, we began painting on our blackboard what the product looked like on different surfaces, and to study **how other games do it**. Then, we designed in Figma the flow of interaction with the product and the flow of a complete game, from the moment someone arrives at the booth until they finish it.
 
-In the booth (below) there would be a TV and flyers with the URL and a QR so that people could access as quickly as possible to a PWA assembled with Vue.js + Vuetify on Firebase.
+In the booth there would be a TV and flyers with the URL and a QR so that people could access as quickly as possible to a PWA assembled with Vue.js + Vuetify on Firebase.
 
-![]({{site.baseurl}}/images/work/trenlab/trenlab_booth.jpeg)
+<!-- ![]({{site.baseurl}}/images/work/trenlab/trenlab_booth.jpeg) -->
 
-#### The visual identity
+#### The visual identity
 
 We started developing a **minimal visual identity**. Before starting a project, we always try to have at hand all the necessary assets to design it, because we immediately start to layout; in this case, TrenLab was working on a rebranding, so we didn't have much to start from.
 
@@ -99,9 +100,13 @@ There was one fundamental thing left to finish: **the questions**.
 
 ### **The content**
 
-The client sent us a lot of questions related to the industry, to open innovation and to their business, and they also asked us to write some more about the startup ecosystem (we are very knowledgeable!).
+The client sent us a lot of questions related to the industry, to open innovation and to their business, and they also asked us to write some more about the startup ecosystem.
 
 We included accelerators such as Tetuan Valley or SeedRocket, well-known Spanish startups like Spotahome and OnTruck and iconic figures such as Steve Blank.
+
+The interaction model to answer questions was pretty straighforward:
+
+![]({{site.baseurl}}/images/work/trenlab/trenlab_game.png)
 
 ### **The final stretch & the premiere**
 
