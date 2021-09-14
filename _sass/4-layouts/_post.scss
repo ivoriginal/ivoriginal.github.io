@@ -21,6 +21,8 @@
 
     &.lightense-open {
       border-radius: 0;
+      width: 100%;
+      height: auto;
     }
   }
 
@@ -340,12 +342,17 @@
   font-family: 'PT Serif', 'Times New Roman', serif;
 }
 
-.page h4 {
-  margin-top: $base-spacing-unit;
-  margin-bottom: 8px;
-}
-
-.page h3 {
-  margin-top: $base-spacing-unit * 2;
-  margin-bottom: $base-spacing-unit;
+.page {
+  h3 {
+    margin-top: $base-spacing-unit * 2;
+    margin-bottom: $base-spacing-unit;
+  }
+  h4 {
+    margin-top: $base-spacing-unit;
+    margin-bottom: 8px;
+  }
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
