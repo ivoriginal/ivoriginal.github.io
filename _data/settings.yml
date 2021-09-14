@@ -48,7 +48,7 @@ now:
     - # image: /images/work/gfs-directory/campus-london.jpg
       # title: 👷‍♂️
       description: Recording <strong>Abrimos Melón</strong>, a podcast where <a href="https://codingcarlos.com/">Carlos</a> and I talk about a random topic while eating.
-      url: https://abrimosmelon.com/
+      url: https://linktr.ee/abrimosmelon
       cta: Sounds refreshing
 
     - # image: /images/commit-sans.jpg
@@ -186,12 +186,19 @@ education:
 
   education__list__short:
 
-    - image: /images/work/pde.png
-      title: Design for non-designers
-      description: From needfinding to user testing (60 minutes)
+    - image: /images/TVSS21.jpg
+      title: Product development & UX
+      description: How to design and develop a product from scratch.
       # cta: Book now
       # cta-2: More info
-      url: https://docs.google.com/presentation/d/1De4haOm8IfKY1whC4tvY7X3ihG2gwieyYyZpThYKHEA/edit?usp=sharing
+      url: https://www.eventbrite.es/e/tetuan-valley-startup-school-product-development-ux-tickets-157033584679
+
+    - image: /images/alcarria.jpg
+      title: Figma + Vue
+      description: Optimising your Figma workflow to work with Vue developers.
+      # cta: Book now
+      # cta-2: More info
+      url: https://www.youtube.com/watch?v=VRw4cFsyVCo&ab_channel=AlcarriaConf
 
     - image: /images/work/prototyping.png
       title: Prototyping 101
@@ -199,6 +206,13 @@ education:
       # cta: Book now
       # cta-2: More info
       url: https://docs.google.com/presentation/d/17TLQhTFh3c3QPHOI0_wgFsP1CgkY19hNNa3McIBnH34/edit?usp=sharing
+
+    - image: /images/work/pde.png
+      title: Design for non-designers
+      description: From needfinding to user testing (60 minutes)
+      # cta: Book now
+      # cta-2: More info
+      url: https://docs.google.com/presentation/d/1De4haOm8IfKY1whC4tvY7X3ihG2gwieyYyZpThYKHEA/edit?usp=sharing
 
     - image: /images/work/education/material-design.png
       title: Intro to Material Design
@@ -214,6 +228,12 @@ projects:
   projects__title: Projects
   projects__subtitle: Cool stuff I'm not (usually) paid for
   project__list:
+
+    - image: /images/abrimos-melon.png
+      title: Abrimos Melón
+      description: A podcast where Carlos and I discuss a topic while eating.
+      tags: podcast
+      url: https://linktr.ee/abrimosmelon
 
     - image: /images/free-the-fish.png
       title: Free the Fish
