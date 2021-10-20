@@ -5,6 +5,7 @@ description: "Mis experiencias dando clase en Fictizia: qué pasaba en las cocin
 date: 2021-08-19 10:01:35 +0200
 image: '/blog/images/02/fictizia.jpg'
 tags: [Educación]
+published: true
 ---
 
 <!-- #### La introducciò -->

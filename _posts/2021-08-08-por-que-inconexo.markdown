@@ -5,6 +5,7 @@ description: Por qué leches tengo yo un blog.
 date: 2021-08-08 15:01:35 +0200
 image: '/blog/images/01/writing.jpg' 
 tags:
+published: true
 ---
 La verdad es que escribo bastante. En verso y en prosa. En cuadernos, libretas, post-its y en apps. Subrayo libros y apunto ideas en los márgenes. Mando muchos mensajes, también. A veces me escribía cosas en la mano para que no se me olvidasen, pero como se me olvidaba mirarme la mano, empecé a usar los recordatorios del móvil, que lo miro todo el rato.
 
