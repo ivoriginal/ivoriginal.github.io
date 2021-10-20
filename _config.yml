@@ -12,6 +12,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+show_drafts: false
+
 paginate: 9
 paginate_path: "/blog/page/:num"
 
